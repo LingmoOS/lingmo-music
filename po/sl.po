@@ -1,0 +1,939 @@
+# Slovenian translation for lingmo-music.
+# Copyright (C) 2013 lingmo-music's COPYRIGHT HOLDER
+# This file is distributed under the same license as the lingmo-music package.
+#
+# Matej Urbančič <mateju@src.lingmo.org>, 2009–2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lingmo-music master\n"
+"Report-Msgid-Bugs-To: https://gitlab.lingmo.org/Lingmo/lingmo-music/issues\n"
+"POT-Creation-Date: 2023-07-29 08:38+0000\n"
+"PO-Revision-Date: 2023-07-29 15:46+0200\n"
+"Last-Translator: Matej Urbančič <mateju@src.lingmo.org>\n"
+"Language-Team: Slovenian Lingmo Translation Team <lingmo-si@googlegroups.com>\n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
+"n%100==4 ? 3 : 0);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: data/org.lingmo.Music.appdata.xml.in.in:6
+#: data/org.lingmo.Music.desktop.in.in:3 lingmomusic/about.py:243
+#: lingmomusic/application.py:61 lingmomusic/window.py:71
+msgid "Music"
+msgstr "Glasba"
+
+#: data/org.lingmo.Music.appdata.xml.in.in:7
+#: data/org.lingmo.Music.desktop.in.in:5
+msgid "Play and organize your music collection"
+msgstr "Predvajanje in upravljanje glasbene zbirke"
+
+#: data/org.lingmo.Music.appdata.xml.in.in:9
+msgid "An easy and pleasant way to play your music."
+msgstr "Enostaven in uporabniku prijazen način predvajanja glasbe."
+
+#: data/org.lingmo.Music.appdata.xml.in.in:12
+msgid ""
+"Find tracks in your local collection, use automatically generated playlists "
+"or curate a fresh one."
+msgstr ""
+"Iskanje posnetkov v krajevnih zbirkah in uporaba samodejnega ali "
+"načrtovanega pripravljanja seznamov predvajanja."
+
+#: data/org.lingmo.Music.appdata.xml.in.in:182
+msgid "The Lingmo Music developers"
+msgstr "Razvijalci programa Lingmo Glasba"
+
+#: data/org.lingmo.Music.desktop.in.in:4
+msgid "Music Player"
+msgstr "Predvajalnik glasbe"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.lingmo.Music.desktop.in.in:13
+msgid "Music;Player;"
+msgstr "Glasba;Predvajalnik;Music;Albumi;izvajalci;skladbe;"
+
+#: data/org.lingmo.Music.gschema.xml:12
+msgid "Window size"
+msgstr "Velikost okna"
+
+#: data/org.lingmo.Music.gschema.xml:13
+msgid "Window size (width and height)."
+msgstr "Velikost okna (širina in višina)."
+
+#: data/org.lingmo.Music.gschema.xml:17
+msgid "Window maximized"
+msgstr "Razpeto okno"
+
+#: data/org.lingmo.Music.gschema.xml:18
+msgid "Window maximized state."
+msgstr "Razpeto stanje okna."
+
+#: data/org.lingmo.Music.gschema.xml:22
+msgid "Playback repeat mode"
+msgstr "Način ponavljanja predvajanja"
+
+#. Translators: Don't translate allowed values, just the description in the brackets
+#: data/org.lingmo.Music.gschema.xml:24
+msgid ""
+"Value identifies whether to repeat or randomize playback through the "
+"collection. Allowed values are: “none” (repeat and shuffle are off), "
+"“song” (repeat current song), “all” (repeat playlist, no shuffle), "
+"“shuffle” (shuffle playlist, presumes repeat all)."
+msgstr ""
+"Vrednost določa, ali naj se predvajanje posnetkov izvaja naključno ali "
+"ponavljajoče. Dovoljene možnosti so: »brez« (ponavljanje in mešanje skladb "
+"je onemogočeno, »posnetek« (ponavljaj trenutni posnetek) , »vse« (ponavljaj "
+"seznam predvajanja brez mešanja) in »premešano« (vrstni red je premešan, "
+"ponovljene pa bodo vse skladbe)."
+
+#: data/org.lingmo.Music.gschema.xml:28
+msgid "Enable ReplayGain"
+msgstr "_Omogoči ReplayGain"
+
+#: data/org.lingmo.Music.gschema.xml:29
+msgid "Enables or disables ReplayGain for albums"
+msgstr "Omogoči ali onemogoči podporo ReplayGain za albume"
+
+#: data/org.lingmo.Music.gschema.xml:33
+msgid "Inhibit system suspend"
+msgstr "Prepreči sistemski prehod v pripravljenost"
+
+#: data/org.lingmo.Music.gschema.xml:34
+msgid "Enables or disables inhibiting system suspend while playing music"
+msgstr ""
+"Preklopi možnost preprečevanja prehoda v stanje pripravljenosti med "
+"predvajanjem glasbe."
+
+#: data/org.lingmo.Music.gschema.xml:38
+msgid "Report music history to Last.fm"
+msgstr "Pošiljaj zgodovino poslušane glasbe na Last.fm"
+
+#: data/org.lingmo.Music.gschema.xml:39
+msgid ""
+"Enables or disables sending scrobbles and the “currently playing” info to "
+"Last.fm."
+msgstr ""
+"Omogoči oziroma onemogoči pošiljanje podatkov »trenutno predvajanih skladb« "
+"na Last.fm"
+
+#: data/ui/AlbumWidget.ui:84 data/ui/PlayerToolbar.ui:87
+#: data/ui/PlaylistControls.ui:101 lingmomusic/widgets/playertoolbar.py:170
+msgid "Play"
+msgstr "Predvajaj"
+
+#: data/ui/AlbumWidget.ui:130 data/ui/PlaylistControls.ui:5
+#: data/ui/SongWidgetMenu.ui:11
+msgid "_Play"
+msgstr "_Predvajaj"
+
+#: data/ui/AlbumWidget.ui:134
+msgid "Add to _Favorite Songs"
+msgstr "_Dodaj med priljubljene"
+
+#: data/ui/AlbumWidget.ui:138 data/ui/SongWidgetMenu.ui:15
+msgid "_Add to Playlist…"
+msgstr "_Dodaj na seznam predvajanja …"
+
+#: data/ui/AppMenu.ui:23 data/ui/LastfmDialog.ui:8
+msgid "Last.fm Account"
+msgstr "Račun Last.fm"
+
+#: data/ui/AppMenu.ui:36
+msgid "Report Music Listening"
+msgstr "Poročaj o poslušanju glasbe"
+
+#: data/ui/AppMenu.ui:58
+msgid "_Keyboard Shortcuts"
+msgstr "_Tipkovne bližnjice"
+
+#: data/ui/AppMenu.ui:68
+msgid "_Help"
+msgstr "Pomo_č"
+
+#: data/ui/AppMenu.ui:78
+msgid "_About Music"
+msgstr "_O programu"
+
+#: data/ui/EmptyView.ui:30
+msgid "Welcome to Music"
+msgstr "Dobrodošli"
+
+#: data/ui/HeaderBar.ui:17
+msgid "Menu"
+msgstr "Meni"
+
+#: data/ui/HeaderBar.ui:25 data/ui/SearchHeaderBar.ui:15
+msgid "Select"
+msgstr "Izberi"
+
+#: data/ui/HeaderBar.ui:31 data/ui/PlaylistDialog.ui:213
+#: data/ui/SearchHeaderBar.ui:20
+msgid "_Cancel"
+msgstr "_Prekliči"
+
+#: data/ui/HeaderBar.ui:43 data/ui/SearchHeaderBar.ui:32
+msgid "Search"
+msgstr "Iskanje"
+
+#: data/ui/HeaderBar.ui:51
+msgid "Back"
+msgstr "Nazaj"
+
+#: data/ui/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Splošno"
+
+#: data/ui/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Close window"
+msgstr "Zapre okno"
+
+#: data/ui/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Začne iskanje"
+
+#: data/ui/help-overlay.ui:26
+msgctxt "shortcut window"
+msgid "Help"
+msgstr "Pokaže pomoč"
+
+#: data/ui/help-overlay.ui:32
+msgctxt "shortcut window"
+msgid "Shortcuts"
+msgstr "Tipkovne bližnjice"
+
+#: data/ui/help-overlay.ui:40
+msgctxt "shortcut window"
+msgid "Playback"
+msgstr "Predvajanje"
+
+#: data/ui/help-overlay.ui:43
+msgctxt "shortcut window"
+msgid "Play/Pause"
+msgstr "Preklopi Predvajanje/Premor"
+
+#: data/ui/help-overlay.ui:49
+msgctxt "shortcut window"
+msgid "Next song"
+msgstr "Skoči na naslednjo skladbo"
+
+#: data/ui/help-overlay.ui:55
+msgctxt "shortcut window"
+msgid "Previous song"
+msgstr "Skoči na predhodno skladbo"
+
+#: data/ui/help-overlay.ui:61
+msgctxt "shortcut window"
+msgid "Toggle repeat"
+msgstr "Preklopi ponavljanje"
+
+#: data/ui/help-overlay.ui:67
+msgctxt "shortcut window"
+msgid "Toggle shuffle"
+msgstr "Preklopi premešanje"
+
+#: data/ui/help-overlay.ui:75
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Upravljanje"
+
+#: data/ui/help-overlay.ui:78
+msgctxt "shortcut window"
+msgid "Go to Albums"
+msgstr "Skoči na pogled albumov"
+
+#: data/ui/help-overlay.ui:84
+msgctxt "shortcut window"
+msgid "Go to Artists"
+msgstr "Skoči na pogled izvajalcev"
+
+#: data/ui/help-overlay.ui:90
+msgctxt "shortcut window"
+msgid "Go to Songs"
+msgstr "Skoči na pogled skladb"
+
+#: data/ui/help-overlay.ui:96
+msgctxt "shortcut window"
+msgid "Go to Playlists"
+msgstr "Skoči na sezname predvajanja"
+
+#: data/ui/help-overlay.ui:102
+msgctxt "shortcut window"
+msgid "Go back"
+msgstr "Skoči na predhodni pogled"
+
+#: data/ui/LastfmDialog.ui:21
+msgid ""
+"Last.fm is a music discovery service that gives you personalised "
+"recommendations based on the music you listen to."
+msgstr ""
+"Spletišče Last.fm je storitev odkrivanja glasbe, ki omogoča priporočila, "
+"oblikovana po glasbi, ki jo najpogosteje poslušate."
+
+#: data/ui/LastfmDialog.ui:31 lingmomusic/widgets/lastfmdialog.py:57
+msgid "Music Reporting Not Setup"
+msgstr "Omejitev poročanja o poslušanju glasbe"
+
+#: data/ui/LastfmDialog.ui:44 lingmomusic/widgets/lastfmdialog.py:60
+msgid "Login to your Last.fm account to report your music listening."
+msgstr "Prijavite se v račun Last.fm za poročanje o poslušanju glasbe"
+
+#: data/ui/LastfmDialog.ui:55 lingmomusic/widgets/lastfmdialog.py:58
+msgid "Login"
+msgstr "Prijava"
+
+#: data/ui/PlayerToolbar.ui:74
+msgid "Previous"
+msgstr "Predhodna"
+
+#: data/ui/PlayerToolbar.ui:106
+msgid "Next"
+msgstr "Naslednja"
+
+#: data/ui/PlaylistControls.ui:9
+msgid "_Delete"
+msgstr "_Izbriši"
+
+#: data/ui/PlaylistControls.ui:13
+msgid "_Rename…"
+msgstr "P_reimenuj …"
+
+#: data/ui/PlaylistControls.ui:28
+msgid "Playlist Name"
+msgstr "Ime seznama predvajanja"
+
+#: data/ui/PlaylistControls.ui:62
+msgid "_Done"
+msgstr "_Končano"
+
+#: data/ui/PlaylistDialog.ui:52
+msgid "Enter a name for your first playlist"
+msgstr "Ime prvega seznama predvajanja"
+
+#: data/ui/PlaylistDialog.ui:77
+msgid "C_reate"
+msgstr "_Ustvari"
+
+#: data/ui/PlaylistDialog.ui:146
+msgid "New Playlist…"
+msgstr "Nov seznam predvajanja …"
+
+#: data/ui/PlaylistDialog.ui:161
+msgid "Add"
+msgstr "Dodaj"
+
+#: data/ui/PlaylistDialog.ui:202
+msgid "Add to Playlist"
+msgstr "Dodaj na seznam predvajanja"
+
+#: data/ui/PlaylistDialog.ui:222
+msgid "_Add"
+msgstr "_Dodaj"
+
+#: data/ui/SearchView.ui:33 lingmomusic/views/artistsview.py:51
+msgid "Artists"
+msgstr "Izvajalci"
+
+#: data/ui/SearchView.ui:42 data/ui/SearchView.ui:84
+msgid "View All"
+msgstr "Pokaži vse"
+
+#: data/ui/SearchView.ui:75 lingmomusic/views/albumsview.py:56
+msgid "Albums"
+msgstr "Albumi"
+
+#: data/ui/SearchView.ui:117 lingmomusic/views/songsview.py:52
+msgid "Songs"
+msgstr "Skladbe"
+
+#: data/ui/SelectionBarMenuButton.ui:7
+msgid "Select All"
+msgstr "Izberi vse"
+
+#: data/ui/SelectionBarMenuButton.ui:11
+msgid "Select None"
+msgstr "Odstrani izbor"
+
+#: data/ui/SelectionBarMenuButton.ui:19 lingmomusic/widgets/headerbar.py:69
+msgid "Click on items to select them"
+msgstr "S klikom se predmeti izberejo."
+
+#: data/ui/SelectionToolbar.ui:8
+msgid "_Add to Playlist"
+msgstr "Dodaj na _seznam predvajanja"
+
+#: data/ui/SongWidgetMenu.ui:19
+msgid "_Remove from Playlist"
+msgstr "_Odstrani s seznama predvajanja"
+
+#: lingmomusic/about.py:245
+msgid "The Lingmo Project"
+msgstr "Projekt Lingmo"
+
+#: lingmomusic/about.py:249
+msgid "translator-credits"
+msgstr "Matej Urbančič <mateju@src.lingmo.org>"
+
+#: lingmomusic/about.py:253
+msgid "Copyright The Lingmo Music Developers"
+msgstr "Avtorske pravice razvijalcev programa Lingmo Glasba"
+
+#: lingmomusic/about.py:256
+msgid "Translated by"
+msgstr "Prevod:"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:894
+msgid "Most Played"
+msgstr "Najpogosteje predvajano"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:948
+msgid "Never Played"
+msgstr "Nikoli predvajano"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:1001
+msgid "Recently Played"
+msgstr "Nedavno predvajano"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:1064
+msgid "Recently Added"
+msgstr "Nedavno dodano"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:1127
+msgid "Favorite Songs"
+msgstr "Priljubljeni posnetki"
+
+#: lingmomusic/gstplayer.py:408
+msgid "Unable to play the file"
+msgstr "Datoteke ni mogoče predvajati."
+
+#: lingmomusic/gstplayer.py:414
+msgid "_Find in {}"
+msgstr "_Najdi v {}"
+
+#. TRANSLATORS: separator for two codecs
+#: lingmomusic/gstplayer.py:424
+msgid " and "
+msgstr "in "
+
+#. TRANSLATORS: separator for a list of codecs
+#: lingmomusic/gstplayer.py:427
+msgid ", "
+msgstr ", "
+
+#: lingmomusic/gstplayer.py:429
+msgid "{} is required to play the file, but is not installed."
+msgid_plural "{} are required to play the file, but are not installed."
+msgstr[0] "{} so zahtevani za predvajanje datoteke, vendar niso nameščeni."
+msgstr[1] "{} je zahtevan za predvajanje datoteke, vendar ni nameščen."
+msgstr[2] "{} sta zahtevana za predvajanje datoteke, vendar nista nameščena."
+msgstr[3] "{} so zahtevani za predvajanje datoteke, vendar niso nameščeni."
+
+#: lingmomusic/inhibitsuspend.py:63
+msgid "Playing music"
+msgstr "Predvajanje glasbe"
+
+#. Translators: "shuffle" causes tracks to play in random order.
+#: lingmomusic/player.py:44
+msgid "Shuffle/Repeat Off"
+msgstr "Onemogoči premešanje/ponavljanje"
+
+#: lingmomusic/player.py:45
+msgid "Repeat Song"
+msgstr "Ponovi skladbo"
+
+#: lingmomusic/player.py:46
+msgid "Repeat All"
+msgstr "Ponovi vse"
+
+#: lingmomusic/player.py:47
+msgid "Shuffle"
+msgstr "Premešaj"
+
+#: lingmomusic/playlisttoast.py:55
+msgid "Playlist {} removed"
+msgstr "Seznam predvajanja {} je odstranjen"
+
+#: lingmomusic/playlisttoast.py:56 lingmomusic/songtoast.py:65
+msgid "Undo"
+msgstr "Razveljavi"
+
+#: lingmomusic/songtoast.py:64
+msgid "{} removed from {}"
+msgstr "{} odstranjen iz {}"
+
+#: lingmomusic/utils.py:92
+msgid "Unknown album"
+msgstr "Neznan album"
+
+#: lingmomusic/utils.py:113
+msgid "Unknown Artist"
+msgstr "Neznan izvajalec"
+
+#: lingmomusic/views/emptyview.py:65
+msgid "Your XDG Music directory is not set."
+msgstr "Mapa glasbe XDG ni nastavljena."
+
+#: lingmomusic/views/emptyview.py:72
+msgid "Music Folder"
+msgstr "Glasbena mapa"
+
+#. TRANSLATORS: This is a label to display a link to open user's music
+#. folder. {} will be replaced with the translated text 'Music folder'
+#: lingmomusic/views/emptyview.py:76
+msgid "The contents of your {} will appear here."
+msgstr "Vsebina {} bo prikazana na tem mestu."
+
+#: lingmomusic/views/emptyview.py:124
+msgid "No Music Found"
+msgstr "Ni shranjene glasbe"
+
+#: lingmomusic/views/emptyview.py:125
+msgid "Try a Different Search"
+msgstr "Poskusite drugačno iskanje"
+
+#: lingmomusic/views/emptyview.py:129
+msgid "Lingmo Music could not connect to Tracker."
+msgstr "Ni mogoče vzpostaviti povezave s programom Tracker."
+
+#: lingmomusic/views/emptyview.py:131
+msgid "Your music files cannot be indexed without Tracker running."
+msgstr ""
+"Glasbenih datotek brez zagnanega programa Tracker ni mogoče indeksirati."
+
+#: lingmomusic/views/emptyview.py:137
+msgid "Your system Tracker version seems outdated."
+msgstr "Sistemska različica paketa Tracker je videti zastarela."
+
+#: lingmomusic/views/emptyview.py:139
+msgid "Music needs Tracker version 3.0.0 or higher."
+msgstr ""
+"Program Music zahteva namestitev različice paketa Tracker 3.0.0 ali višje."
+
+#: lingmomusic/views/playlistsview.py:45
+msgid "Playlists"
+msgstr "Seznami predvajanja"
+
+#: lingmomusic/views/searchview.py:304
+msgid "Artists Results"
+msgstr "Izvajalci"
+
+#: lingmomusic/views/searchview.py:318
+msgid "Albums Results"
+msgstr "Albumi"
+
+#: lingmomusic/widgets/albumwidget.py:245
+msgid "{} minute"
+msgid_plural "{} minutes"
+msgstr[0] "{} minut"
+msgstr[1] "{} minuta"
+msgstr[2] "{} minuti"
+msgstr[3] "{} minute"
+
+#: lingmomusic/widgets/discbox.py:75
+msgid "Disc {}"
+msgstr "Disk {}"
+
+#: lingmomusic/widgets/headerbar.py:66
+msgid "Selected {} song"
+msgid_plural "Selected {} songs"
+msgstr[0] "Izbranih je {} skladb"
+msgstr[1] "Izbrana je {} skladba"
+msgstr[2] "Izbrani sta {} skladbi"
+msgstr[3] "Izbrane so {} skladbe"
+
+#: lingmomusic/widgets/lastfmdialog.py:64
+msgid "Your music listening is reported to Last.fm."
+msgstr "Poročilo o poslušanju glasbe je poslano na Last.fm."
+
+#: lingmomusic/widgets/lastfmdialog.py:66
+msgid "Your music listening is not reported to Last.fm."
+msgstr "Podatki poslušanja glasbe niso posredovani na Last.fm."
+
+#. TRANSLATORS: displays the username of the Last.fm account
+#: lingmomusic/widgets/lastfmdialog.py:70
+msgid "Logged in as {}"
+msgstr "Trenutno je dejavna prijava {}"
+
+#: lingmomusic/widgets/lastfmdialog.py:71
+msgid "Configure"
+msgstr "Nastavi"
+
+#: lingmomusic/widgets/playertoolbar.py:167
+msgid "Pause"
+msgstr "Premor"
+
+#: lingmomusic/widgets/playlistcontrols.py:130
+msgid "{} Song"
+msgid_plural "{} Songs"
+msgstr[0] "{} skladb"
+msgstr[1] "{} skladba"
+msgstr[2] "{} skladbi"
+msgstr[3] "{} skladbe"
+
+#: lingmomusic/widgets/searchheaderbar.py:66
+msgid "Search songs, artists, albums and playlists"
+msgstr "Poišči skladbe, izvajalce, albume in sezname predvajanj"
+
+#~ msgid "A music player and management application for Lingmo."
+#~ msgstr "Program Lingmo za upravljanje in predvajanje glasbe."
+
+#~ msgid "Visit Lingmo Music website"
+#~ msgstr "Spletna stran programa Lingmo Glasba"
+
+#~ msgid ""
+#~ "Lingmo Music is free software; you can redistribute it and/or modify it "
+#~ "under the terms of the GNU General Public License as published by the "
+#~ "Free Software Foundation; either version 2 of the License, or (at your "
+#~ "option) any later version.\n"
+#~ "\n"
+#~ "Lingmo Music is distributed in the hope that it will be useful, but "
+#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
+#~ "Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License along "
+#~ "with Lingmo Music; if not, write to the Free Software Foundation, Inc., 51 "
+#~ "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
+#~ "\n"
+#~ "The Lingmo Music authors hereby grant permission for non-GPL compatible "
+#~ "GStreamer plugins to be used and distributed together with GStreamer and "
+#~ "Lingmo Music.  This permission is above and beyond the permissions granted "
+#~ "by the GPL license by which Lingmo Music is covered.  If you modify this "
+#~ "code, you may extend this exception to your version of the code, but you "
+#~ "are not obligated to do so.  If you do not wish to do so, delete this "
+#~ "exception statement from your version."
+#~ msgstr ""
+#~ "Program Lingmo Music je prosta programska oprema; dovoljeno je razširjanje "
+#~ "in spreminjanje pod pogoji Splošnega Javnega Dovoljenja (GNU), kot je "
+#~ "objavljena pri Free Software Foundation; različice 2 ali katerekoli "
+#~ "kasnejše.\n"
+#~ "\n"
+#~ "Program se razširja v upanju, da bo koristen, vendar pa brez VSAKRŠNEGA "
+#~ "JAMSTVA; tudi brez posredne zagotovitve CENOVNE VREDNOSTI ali PRIMERNOSTI "
+#~ "ZA DOLOČEN NAMEN. Za več podrobnosti si oglejte dovoljenje.\n"
+#~ "\n"
+#~ "\n"
+#~ "Skupaj s programom bi morali prejeti tudi kopijo Splošnega Javnega "
+#~ "dovoljenja GNU /GNU GPL). V primeru, da je niste, si oglejte <http://www."
+#~ "gnu.org/licenses/>.\n"
+#~ "\n"
+#~ "Avtorji programa Lingmo Music dovolijo uporabo in razširjanje z "
+#~ "dovoljenjem neskladnih vstavkov programa GStreamer. Dovoljenje presega "
+#~ "Splošno Javno dovoljenje, s katerim je avtorsko zaščiten program Lingmo "
+#~ "Music. V kolikor boste spreminjali to kodo, lahko razširite izjemo na "
+#~ "različico kode, vendar tega niste dolžni narediti. Če tega ne želite, "
+#~ "izbrišite izjavo izjeme iz vaše različice."
+
+#~ msgid "The contents of your Music Folder will appear here"
+#~ msgstr "Vsebina glasbene mape bo prikazana na tem mestu."
+
+#~ msgid "Lingmo Music"
+#~ msgstr "Lingmo Glasba"
+
+#~ msgid "Window position"
+#~ msgstr "Položaj okna"
+
+#~ msgid "Window position (x and y)."
+#~ msgstr "Položaj okna (osi x in y)."
+
+#~ msgid "Loading"
+#~ msgstr "Nalaganje"
+
+#~ msgid "Add to Playlist…"
+#~ msgstr "Dodaj na seznam predvajanja …"
+
+#~ msgid "Remove From Playlist"
+#~ msgstr "Odstrani s seznama predvajanja"
+
+#~ msgid ""
+#~ "An easy way to play your music. Automatically discover music on your "
+#~ "computer, the local network and internet services."
+#~ msgstr ""
+#~ "Enostaven način za predvajanje glasbe. Samodejno odkrivanje glasbe na "
+#~ "računalniku, v krajevnem omrežju in prek internetnih storitev."
+
+#~ msgid ""
+#~ "Find tracks in your local collection, get music from DLNA servers or try "
+#~ "something new with the Jamendo and Magnatune services."
+#~ msgstr ""
+#~ "Iskanje posnetkov v zbirki, pridobivanje glasbe prek strežnikov DLNA in "
+#~ "iskanje s storitvami Jamendo in Magnatune."
+
+#~ msgid "Inital state has been displayed"
+#~ msgstr "Začetno stanje je onemogočeno"
+
+#~ msgid "Set to true when initial state has been displayed"
+#~ msgstr "Izbrana možnost določa, da je bilo začetno stanje prikazano."
+
+#~ msgid ""
+#~ "Lingmo Music is free software; you can redistribute it and/or modify it "
+#~ "under the terms of the GNU General Public License as published by the "
+#~ "Free Software Foundation; either version 2 of the License, or (at your "
+#~ "option) any later version.\n"
+#~ "\n"
+#~ "Lingmo Music is distributed in the hope that it will be useful, but "
+#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
+#~ "Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License along "
+#~ "with Lingmo Music; if not, write to the Free Software Foundation, Inc., 51 "
+#~ "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
+#~ "\n"
+#~ "The Lingmo Music authors hereby grant permission for non-GPL compatible "
+#~ "GStreamer plugins to be used and distributed together with GStreamer and "
+#~ "Lingmo Music.  This permission is above and beyond the permissions granted "
+#~ "by the GPL license by which Lingmo Music is covered.  If you modify this "
+#~ "code, you may extend this exception to your version of the code, but you "
+#~ "are not obligated to do so.  If you do not wish to do so, delete this "
+#~ "exception statement from your version.\n"
+#~ "\n"
+#~ "“Magic of the vinyl” by Sami Pyylampi image is licensed by CC-BY-SA 2.0 "
+#~ "https://www.flickr.com/photos/_spy_/12270839403"
+#~ msgstr ""
+#~ "Lingmo Glasba je prosta programska oprema; program lahko razširjate in/ali "
+#~ "spreminjate pod pogoji Splošnega Javnega Dovoljenja GNU (angleško: GNU "
+#~ "General Public License), kot je objavljen s strani ustanove Free Software "
+#~ "Foundation; različice 2 ali (po želji) katerekoli kasnejše različice.\n"
+#~ "\n"
+#~ "Program se razširja v upanju, da bo uporabniku koristen, vendar BREZ "
+#~ "VSAKRŠNE GARANCIJE; tudi brez posrednega zagotovila JAMSTVA CENOVNE "
+#~ "VREDNOSTI in PRIMERNOSTI ZA DOLOČENO UPORABO. Za več podrobnosti si "
+#~ "poglejte določila Splošnega Javnega Dovoljenja GNU.\n"
+#~ "\n"
+#~ "Kopijo tega dokumenta bi morali prejeti skupaj s programom, v kolikor pa "
+#~ "je niste, si dovoljenje poglejte na spletni strani <http://www.gnu.org/"
+#~ "licenses>, oziroma pišite na naslov organizacije Free Software "
+#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 "
+#~ "USA.\n"
+#~ "\n"
+#~ "Avtorji programa Lingmo Music dovoljujejo uporabo ne-GPL skladnih vstavkov "
+#~ "GStreamer skupaj s programom. To dovoljenje presega dovoljenja GPL, ki "
+#~ "pokriva program. V kolikor spreminjate to kodo, lahko razširite izjemo na "
+#~ "vašo različico kode, ni pa to nujno. Če ne želite, izbrišite to trditev "
+#~ "iz vaše različice.\n"
+#~ "\n"
+#~ "Slika Samija Pyylampija »Magic of the vinyl« je objavljena z dovoljenjem "
+#~ "CC-BY-SA 2.0 https://www.flickr.com/photos/_spy_/12270839403"
+
+#~ msgid "Hey DJ"
+#~ msgstr "Hej, DJ"
+
+#~ msgid "Released"
+#~ msgstr "Izdano"
+
+#~ msgid "Running Length"
+#~ msgstr "Skupna dolžina"
+
+#~ msgid "Composer"
+#~ msgstr "Skladatelj"
+
+#~ msgctxt "context menu item"
+#~ msgid "Play"
+#~ msgstr "Predvajaj"
+
+#~ msgid "All"
+#~ msgstr "Vse"
+
+#~ msgid "Artist"
+#~ msgstr "Izvajalec"
+
+#~ msgid "Album"
+#~ msgstr "Album"
+
+#~ msgid "Track Title"
+#~ msgstr "Naslov skladbe"
+
+#~ msgid "Local"
+#~ msgstr "Krajevno"
+
+#~ msgid "Sources"
+#~ msgstr "Viri"
+
+#~ msgid "Match"
+#~ msgstr "Se sklada"
+
+#~ msgid "Untitled"
+#~ msgstr "Neimenovano"
+
+#~ msgid "@icon@"
+#~ msgstr "@icon@"
+
+#~ msgid "_Quit"
+#~ msgstr "_Končaj"
+
+#~ msgid "Music is the new Lingmo music playing application."
+#~ msgstr "Glasba je program za predvajanje glasbe za namizje Lingmo."
+
+#~ msgid "org.lingmo.Music"
+#~ msgstr "org.lingmo.Music"
+
+#~ msgid "Selected %d item"
+#~ msgid_plural "Selected %d items"
+#~ msgstr[0] "Izbranih je %d predmetov"
+#~ msgstr[1] "Izbran je %d predmet"
+#~ msgstr[2] "Izbrana sta %d predmeta"
+#~ msgstr[3] "Izbrani so %d predmeti"
+
+#~ msgid "Empty"
+#~ msgstr "Prazno"
+
+#~ msgid "Search mode"
+#~ msgstr "Iskalni način"
+
+#~ msgid "If true, the search bar is shown."
+#~ msgstr "Izbrana možnost določa prikaz iskalne vrstice."
+
+#~ msgid "Notifications mode"
+#~ msgstr "Način obvestil"
+
+#~ msgid "Enables or disables playback notifications"
+#~ msgstr "Omogoči prikaz obvestil predvajanja"
+
+#~ msgid "%d min"
+#~ msgstr "%d min"
+
+#~ msgid "Select Playlist"
+#~ msgstr "Izbor seznama predvajanja"
+
+#~ msgid "the|a|an"
+#~ msgstr "the|a|an"
+
+#~ msgid ""
+#~ "Value identifies whether to repeat or randomize playback through the "
+#~ "collection. Allowed values are: \"none\" (repeat and shuffle are off), "
+#~ "\"song\" (repeat current song), \"all\" (repeat playlist, no shuffle), "
+#~ "\"shuffle\" (shuffle playlist, presumes repeat all)."
+#~ msgstr ""
+#~ "Vrednost določa, ali naj se predvajanje posnetkov izvaja naključno ali "
+#~ "ponavljajoče. Dovoljene možnosti so: \"brez\" (ponavljanje in mešanje "
+#~ "skladb je onemogočeno, \"posnetek\" (ponavljaj trenutni posnetek) , "
+#~ "\"vse\" (ponavljaj seznam predvajanja brez mešanja) in "
+#~ "\"premešano\" (vrstni red je premešan, ponovljene pa bodo vse skladbe)."
+
+#~ msgid "Max chars to display in track name on Artist view"
+#~ msgstr "Največje število znakov naslova sledi v pogledu izvajalca"
+
+#~ msgid ""
+#~ "This setting modifies the amount of chars for track title on Artist view "
+#~ "before its been ellipsized. Set this to -1 to disable"
+#~ msgstr ""
+#~ "Nastavitev določa število znakov naslova sledi v pogledu izvajalcev, "
+#~ "preden je okrajšan. Vrednost -1 onemogoči nastavitev."
+
+#~ msgid "the a an"
+#~ msgstr "the a an"
+
+#~ msgid "All Artists"
+#~ msgstr "Vsi izvajalci"
+
+#~ msgid "Copyright © 2013 Lingmo Music Developers"
+#~ msgstr "Avtorske pravice © 2013 Razvijalci programa Lingmo Music"
+
+#~ msgid ""
+#~ "Lingmo Music is free software; you can redistribute it and/or modify it "
+#~ "under the terms of the GNU General Public License as published by the "
+#~ "Free Software Foundation; either version 2 of the License, or (at your "
+#~ "option) any later version.\n"
+#~ "\n"
+#~ "Lingmo Music is distributed in the hope that it will be useful, but "
+#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
+#~ "Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License along "
+#~ "with Lingmo Music; if not, write to the Free Software Foundation, Inc., 51 "
+#~ "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
+#~ "\n"
+#~ "The Lingmo Music authors hereby grant permission for non-GPL compatible "
+#~ "GStreamer plugins to be used and distributed together with GStreamer and "
+#~ "Lingmo Music.  This permission is above and beyond the permissions granted "
+#~ "by the GPL license by which Lingmo Music is covered.  If you modify this "
+#~ "code, you may extend this exception to your version of the code, but you "
+#~ "are not obligated to do so.  If you do not wish to do so, delete this "
+#~ "exception statement from your version.\n"
+#~ "\n"
+#~ "\"Magic of the vinyl\" by Sami Pyylampi image is licensed by CC-BY-SA 2.0 "
+#~ "https://www.flickr.com/photos/_spy_/12270839403\n"
+#~ msgstr ""
+#~ "Program Lingmo Music je opredeljen kot prosta programska oprema; lahko ga "
+#~ "razširjate in/ali spreminjate pod pogoji Splošnega Javnega Dovoljenja GNU "
+#~ "(angleško: GNU General Public License), kot ga je objavila ustanova Free "
+#~ "Software Foundation; različice 3 ali (po želji) katerekoli kasnejše "
+#~ "različice.\n"
+#~ "\n"
+#~ "Program se razširja v upanju, da bo uporabniku koristen, vendar BREZ "
+#~ "VSAKRŠNE GARANCIJE; tudi brez posrednega zagotovila JAMSTVA CENOVNE "
+#~ "VREDNOSTI in PRIMERNOSTI ZA DOLOČENO UPORABO. Za več podrobnosti si "
+#~ "poglejte določila Splošnega Javnega Dovoljenja GNU.\n"
+#~ "\n"
+#~ "Kopijo tega dokumenta bi morali prejeti skupaj s programom, v kolikor pa "
+#~ "je niste, si dovoljenje poglejte na spletni strani <http://www.gnu.org/"
+#~ "licenses>.\n"
+#~ "\n"
+#~ "Avtorji programa Lingmo Music dovoljujejo uporabo ne-GPL skladnih vstavkov "
+#~ "GStreamer skupaj s programom. To dovoljenje presega dovoljenja GPL, ki "
+#~ "pokriva program. V kolikor spreminjate to kodo, lahko razširite izjomo na "
+#~ "vašo različico kodo, ni pa to nujno. Če ne želite, izbrišite to trditev "
+#~ "iz vaše različice.\n"
+#~ "\n"
+#~ "Slika Samija Pyylampija \"Magic of the vinyl\" je objavljena z "
+#~ "dovoljenjem CC-BY-SA 2.0 https://www.flickr.com/photos/_spy_/12270839403\n"
+
+#~ msgid "Cancel"
+#~ msgstr "Prekliči"
+
+#~ msgid "Not playing"
+#~ msgstr "Ni predvajanja"
+
+#~ msgid "by %s, from %s"
+#~ msgstr "%s (album %s)"
+
+#~ msgid ""
+#~ "No Music found!\n"
+#~ " Put some files into the folder %s"
+#~ msgstr ""
+#~ "Posnetkov ni mogoče najti!\n"
+#~ " Nekaj datotek je treba kopirati v mapo %s"
+
+#~ msgid "_New Playlist"
+#~ msgstr "_Nov seznam predvajanja"
+
+#~ msgid "Load More"
+#~ msgstr "Naloži dodatne"
+
+#~ msgid "Now _Playing"
+#~ msgstr "_Predvajanje"
+
+#~ msgid "<span color='grey'>Released</span>"
+#~ msgstr "<span color='grey'>Objavljeno</span>"
+
+#~ msgid "<span color='grey'>Running Length</span>"
+#~ msgstr "<span color='grey'>Dolžina predvajanja</span>"
+
+#~ msgid "----"
+#~ msgstr "----"
+
+#~ msgid "--:--"
+#~ msgstr "--:--"
+
+#~ msgid "00:00"
+#~ msgstr "00:00"
+
+#~ msgid "/"
+#~ msgstr "/"
+
+#~ msgid "If true, do randomized playback through the collection"
+#~ msgstr "Izbrana možnost določa naključno predvajanje posnetkov v zbirki"

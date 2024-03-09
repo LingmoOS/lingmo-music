@@ -1,0 +1,31 @@
+From: =?utf-8?q?Jeremy_B=C3=ADcha?= <jeremy.bicha@canonical.com>
+Date: Wed, 10 Jan 2024 12:16:02 -0500
+Subject: Hide Last.fm
+
+GNOME Online Accounts 3.49 has removed the Last.fm account provider
+
+https://gitlab.gnome.org/GNOME/gnome-music/-/issues/584
+---
+ data/ui/AppMenu.ui | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/data/ui/AppMenu.ui b/data/ui/AppMenu.ui
+index 70f9e7f..cca021a 100644
+--- a/data/ui/AppMenu.ui
++++ b/data/ui/AppMenu.ui
+@@ -21,6 +21,7 @@
+             <property name="hexpand">False</property>
+             <property name="action_name">app.lastfm-configure</property>
+             <property name="text" translatable="yes">Last.fm Account</property>
++            <property name="visible">False</property>
+           </object>
+         </child>
+         <child>
+@@ -46,6 +47,7 @@
+         </child>
+         <child>
+           <object class="GtkSeparator">
++            <property name="visible">False</property>
+           </object>
+         </child>
+         <child>

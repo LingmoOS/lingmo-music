@@ -1,0 +1,777 @@
+# Friulian translation for lingmo-music.
+# Copyright (C) 2015 lingmo-music's COPYRIGHT HOLDER
+# This file is distributed under the same license as the lingmo-music package.
+# Fabio Tomat <f.t.public@gmail.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lingmo-music master\n"
+"Report-Msgid-Bugs-To: https://gitlab.lingmo.org/Lingmo/lingmo-music/issues\n"
+"POT-Creation-Date: 2022-08-27 13:27+0000\n"
+"PO-Revision-Date: 2022-10-03 09:29+0200\n"
+"Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
+"Language-Team: Friulian <f.t.public@gmail.com>\n"
+"Language: fur\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Editor: HaiPO 1.2 b1\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: data/org.lingmo.Music.appdata.xml.in.in:6
+#: data/org.lingmo.Music.desktop.in.in:3 lingmomusic/about.py:236
+#: lingmomusic/application.py:61 lingmomusic/window.py:71
+msgid "Music"
+msgstr "Musiche"
+
+#: data/org.lingmo.Music.appdata.xml.in.in:7
+#: data/org.lingmo.Music.desktop.in.in:5
+msgid "Play and organize your music collection"
+msgstr "Sune e organize le tô colezion di musichis"
+
+#: data/org.lingmo.Music.appdata.xml.in.in:9
+msgid "An easy and pleasant way to play your music."
+msgstr "Une semplice e plasevule maniere par scoltâ la tô musiche."
+
+#: data/org.lingmo.Music.appdata.xml.in.in:12
+msgid ""
+"Find tracks in your local collection, use automatically generated playlists "
+"or curate a fresh one."
+msgstr ""
+"Cjate i tocs inte tô colezion locâl, dopre lis listis di riproduzion "
+"gjeneradis in automatic o cure une gnove."
+
+#: data/org.lingmo.Music.appdata.xml.in.in:167
+msgid "The Lingmo Music developers"
+msgstr "I svilupadôrs di Lingmo Musiche"
+
+#: data/org.lingmo.Music.desktop.in.in:4
+msgid "Music Player"
+msgstr "Letôr musicâl"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.lingmo.Music.desktop.in.in:13
+msgid "Music;Player;"
+msgstr "Musiche;Riprodutôr;"
+
+#: data/org.lingmo.Music.gschema.xml:12
+msgid "Window size"
+msgstr "Dimension barcon"
+
+#: data/org.lingmo.Music.gschema.xml:13
+msgid "Window size (width and height)."
+msgstr "Dimension barcon (largjece e altece)."
+
+#: data/org.lingmo.Music.gschema.xml:17
+msgid "Window maximized"
+msgstr "Barcon slargjât"
+
+#: data/org.lingmo.Music.gschema.xml:18
+msgid "Window maximized state."
+msgstr "Stât barcon slargjât."
+
+#: data/org.lingmo.Music.gschema.xml:22
+msgid "Playback repeat mode"
+msgstr "Modalitât ripetizion"
+
+#. Translators: Don't translate allowed values, just the description in the brackets
+#: data/org.lingmo.Music.gschema.xml:24
+msgid ""
+"Value identifies whether to repeat or randomize playback through the "
+"collection. Allowed values are: “none” (repeat and shuffle are off), "
+"“song” (repeat current song), “all” (repeat playlist, no shuffle), "
+"“shuffle” (shuffle playlist, presumes repeat all)."
+msgstr ""
+"Il valôr al specifiche se ripeti o riprodusi a câs le colezion. I valôrs "
+"acetâts a son: “none” (ripetizion e messedât a son studâts), "
+"“song” (ripetizion de cjançon atuâl), “all” (ripetizion de liste des "
+"cjançons, cence messedâ), “shuffle” (messedâ l'ordin de liste des cjançons, "
+"si intint ancje ripeti dutis)."
+
+#: data/org.lingmo.Music.gschema.xml:28
+msgid "Enable ReplayGain"
+msgstr "Abilite ReplayGain"
+
+#: data/org.lingmo.Music.gschema.xml:29
+msgid "Enables or disables ReplayGain for albums"
+msgstr "Abilite o disabilite ReplayGain pai album"
+
+#: data/org.lingmo.Music.gschema.xml:33
+msgid "Inhibit system suspend"
+msgstr "Inibìs la sospension dal sisteme"
+
+#: data/org.lingmo.Music.gschema.xml:34
+msgid "Enables or disables inhibiting system suspend while playing music"
+msgstr ""
+"Abilite o disabilite la inibizion a sospindi il sisteme intant che si scolte "
+"la musiche"
+
+#: data/org.lingmo.Music.gschema.xml:38
+msgid "Report music history to Last.fm"
+msgstr "Invie la cronologjie de musiche a Last.fm"
+
+#: data/org.lingmo.Music.gschema.xml:39
+msgid ""
+"Enables or disables sending scrobbles and the “currently playing” info to "
+"Last.fm."
+msgstr ""
+"Al abilite o al disabilite l'inviâ i tiei gjenars di musiche preferide e lis "
+"informazions ce che tu stâs scoltant a Last.fm."
+
+#: data/ui/AlbumWidget.ui:84 data/ui/PlayerToolbar.ui:87
+#: data/ui/PlaylistControls.ui:101 lingmomusic/widgets/playertoolbar.py:170
+msgid "Play"
+msgstr "Sune"
+
+#: data/ui/AlbumWidget.ui:130 data/ui/PlaylistControls.ui:5
+#: data/ui/SongWidgetMenu.ui:11
+msgid "_Play"
+msgstr "_Sune"
+
+#: data/ui/AlbumWidget.ui:134
+msgid "Add to _Favorite Songs"
+msgstr "Zonte ai _tocs preferîts"
+
+#: data/ui/AlbumWidget.ui:138 data/ui/SongWidgetMenu.ui:15
+msgid "_Add to Playlist…"
+msgstr "_Zonte ae liste di riproduzion…"
+
+#: data/ui/AppMenu.ui:23 data/ui/LastfmDialog.ui:8
+msgid "Last.fm Account"
+msgstr "Account Last.fm"
+
+#: data/ui/AppMenu.ui:36
+msgid "Report Music Listening"
+msgstr "Invie la musiche che tu scoltis"
+
+#: data/ui/AppMenu.ui:58
+msgid "_Keyboard Shortcuts"
+msgstr "_Scurtis di tastiere"
+
+#: data/ui/AppMenu.ui:68
+msgid "_Help"
+msgstr "_Jutori"
+
+#: data/ui/AppMenu.ui:78
+msgid "_About Music"
+msgstr "_Informazions su Musiche"
+
+#: data/ui/EmptyView.ui:30
+msgid "Welcome to Music"
+msgstr "Benvignûts su Musiche"
+
+#: data/ui/HeaderBar.ui:16
+msgid "Menu"
+msgstr "Menù"
+
+#: data/ui/HeaderBar.ui:24 data/ui/SearchHeaderBar.ui:15
+msgid "Select"
+msgstr "Selezione"
+
+#: data/ui/HeaderBar.ui:30 data/ui/PlaylistDialog.ui:213
+#: data/ui/SearchHeaderBar.ui:20
+msgid "_Cancel"
+msgstr "_Anule"
+
+#: data/ui/HeaderBar.ui:42 data/ui/SearchHeaderBar.ui:32
+msgid "Search"
+msgstr "Cîr"
+
+#: data/ui/HeaderBar.ui:50
+msgid "Back"
+msgstr "Torne indaûr"
+
+#: data/ui/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Gjenerâl"
+
+#: data/ui/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Close window"
+msgstr "Siere barcon"
+
+#: data/ui/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Cîr"
+
+#: data/ui/help-overlay.ui:26
+msgctxt "shortcut window"
+msgid "Help"
+msgstr "Jutori"
+
+#: data/ui/help-overlay.ui:32
+msgctxt "shortcut window"
+msgid "Shortcuts"
+msgstr "Scurtis"
+
+#: data/ui/help-overlay.ui:40
+msgctxt "shortcut window"
+msgid "Playback"
+msgstr "Riprodûs"
+
+#: data/ui/help-overlay.ui:43
+msgctxt "shortcut window"
+msgid "Play/Pause"
+msgstr "Sune/Pause"
+
+#: data/ui/help-overlay.ui:49
+msgctxt "shortcut window"
+msgid "Next song"
+msgstr "Prossim toc"
+
+#: data/ui/help-overlay.ui:55
+msgctxt "shortcut window"
+msgid "Previous song"
+msgstr "Toc precedent"
+
+#: data/ui/help-overlay.ui:61
+msgctxt "shortcut window"
+msgid "Toggle repeat"
+msgstr "Comutâ il ripeti"
+
+#: data/ui/help-overlay.ui:67
+msgctxt "shortcut window"
+msgid "Toggle shuffle"
+msgstr "Comutâ il messedâ"
+
+#: data/ui/help-overlay.ui:75
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Navigazion"
+
+#: data/ui/help-overlay.ui:78
+msgctxt "shortcut window"
+msgid "Go to Albums"
+msgstr "Va ai album"
+
+#: data/ui/help-overlay.ui:84
+msgctxt "shortcut window"
+msgid "Go to Artists"
+msgstr "Va ai artiscj"
+
+#: data/ui/help-overlay.ui:90
+msgctxt "shortcut window"
+msgid "Go to Songs"
+msgstr "Va ai tocs"
+
+#: data/ui/help-overlay.ui:96
+msgctxt "shortcut window"
+msgid "Go to Playlists"
+msgstr "Va ae liste dai tocs"
+
+#: data/ui/help-overlay.ui:102
+msgctxt "shortcut window"
+msgid "Go back"
+msgstr "Torne indaûr"
+
+#: data/ui/LastfmDialog.ui:21
+msgid ""
+"Last.fm is a music discovery service that gives you personalised "
+"recommendations based on the music you listen to."
+msgstr ""
+"Last.fm al è un servizi di scuvierte de musiche che ti da conseis "
+"personalizâts in base ae musiche che tu scoltis."
+
+#: data/ui/LastfmDialog.ui:31 lingmomusic/widgets/lastfmdialog.py:57
+msgid "Music Reporting Not Setup"
+msgstr "Segnalazion de musiche, no configurade"
+
+#: data/ui/LastfmDialog.ui:44 lingmomusic/widgets/lastfmdialog.py:60
+msgid "Login to your Last.fm account to report your music listening."
+msgstr "Jentre tal to account Last.fm par inviâ la musiche che tu scoltis."
+
+#: data/ui/LastfmDialog.ui:55 lingmomusic/widgets/lastfmdialog.py:58
+msgid "Login"
+msgstr "Jentre"
+
+#: data/ui/PlayerToolbar.ui:74
+msgid "Previous"
+msgstr "Precedent"
+
+#: data/ui/PlayerToolbar.ui:106
+msgid "Next"
+msgstr "Prossim"
+
+#: data/ui/PlaylistControls.ui:9
+msgid "_Delete"
+msgstr "_Scancele"
+
+#: data/ui/PlaylistControls.ui:13
+msgid "_Rename…"
+msgstr "_Cambie non…"
+
+#: data/ui/PlaylistControls.ui:28
+msgid "Playlist Name"
+msgstr "Non de liste des musichis"
+
+#: data/ui/PlaylistControls.ui:62
+msgid "_Done"
+msgstr "_Fat"
+
+#: data/ui/PlaylistDialog.ui:52
+msgid "Enter a name for your first playlist"
+msgstr "Scrîf un non pe tô prime liste di riproduzion"
+
+#: data/ui/PlaylistDialog.ui:77
+msgid "C_reate"
+msgstr "C_ree"
+
+#: data/ui/PlaylistDialog.ui:146
+msgid "New Playlist…"
+msgstr "Gnove liste di musichis…"
+
+#: data/ui/PlaylistDialog.ui:161
+msgid "Add"
+msgstr "Zonte"
+
+#: data/ui/PlaylistDialog.ui:202
+msgid "Add to Playlist"
+msgstr "Zonte ae liste des musichis"
+
+#: data/ui/PlaylistDialog.ui:222
+msgid "_Add"
+msgstr "_Zonte"
+
+#: data/ui/SearchView.ui:33 lingmomusic/views/artistsview.py:51
+msgid "Artists"
+msgstr "Artiscj"
+
+#: data/ui/SearchView.ui:42 data/ui/SearchView.ui:84
+msgid "View All"
+msgstr "Visualize dut"
+
+#: data/ui/SearchView.ui:75 lingmomusic/views/albumsview.py:56
+msgid "Albums"
+msgstr "Album"
+
+#: data/ui/SearchView.ui:117 lingmomusic/views/songsview.py:52
+msgid "Songs"
+msgstr "Cjancçons"
+
+#: data/ui/SelectionBarMenuButton.ui:7
+msgid "Select All"
+msgstr "Selezione dut"
+
+#: data/ui/SelectionBarMenuButton.ui:11
+msgid "Select None"
+msgstr "Selezione nuie"
+
+#: data/ui/SelectionBarMenuButton.ui:19 lingmomusic/widgets/headerbar.py:69
+msgid "Click on items to select them"
+msgstr "Cliche sui elements par selezionaju"
+
+#: data/ui/SelectionToolbar.ui:8
+msgid "_Add to Playlist"
+msgstr "_Zonte ae liste des musichis"
+
+#: data/ui/SongWidgetMenu.ui:19
+msgid "_Remove from Playlist"
+msgstr "_Gjave de liste des musichis"
+
+#: lingmomusic/about.py:238
+msgid "The Lingmo Project"
+msgstr "Il progjet Lingmo"
+
+#: lingmomusic/about.py:242
+msgid "translator-credits"
+msgstr "Fabio Tomat <f.t.public@gmail.com>, 2022"
+
+#: lingmomusic/about.py:246
+msgid "Copyright The Lingmo Music Developers"
+msgstr "Copyright i svilupadôrs di Lingmo Musiche"
+
+#: lingmomusic/about.py:249
+msgid "Translated by"
+msgstr "Tradot di"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:894
+msgid "Most Played"
+msgstr "Plui scoltats"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:948
+msgid "Never Played"
+msgstr "Mai scoltât"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:1001
+msgid "Recently Played"
+msgstr "Scoltât di recent"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:1064
+msgid "Recently Added"
+msgstr "Zontât di recent"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:1127
+msgid "Favorite Songs"
+msgstr "Tocs preferîts"
+
+#: lingmomusic/gstplayer.py:408
+msgid "Unable to play the file"
+msgstr "Impussibil riprodusi il file"
+
+#: lingmomusic/gstplayer.py:414
+msgid "_Find in {}"
+msgstr "_Cjate in {}"
+
+#. TRANSLATORS: separator for two codecs
+#: lingmomusic/gstplayer.py:424
+msgid " and "
+msgstr " e "
+
+#. TRANSLATORS: separator for a list of codecs
+#: lingmomusic/gstplayer.py:427
+msgid ", "
+msgstr ", "
+
+#: lingmomusic/gstplayer.py:429
+msgid "{} is required to play the file, but is not installed."
+msgid_plural "{} are required to play the file, but are not installed."
+msgstr[0] "Al covente {} par riprodusi il file, ma nol è instalât."
+msgstr[1] "A coventin {} par riprodusi il file, ma no son instalâts."
+
+#: lingmomusic/inhibitsuspend.py:63
+msgid "Playing music"
+msgstr "Riproduzion musiche"
+
+#. Translators: "shuffle" causes tracks to play in random order.
+#: lingmomusic/player.py:44
+msgid "Shuffle"
+msgstr "Messede"
+
+#: lingmomusic/player.py:45
+msgid "Repeat Song"
+msgstr "Ripet cjançon"
+
+#: lingmomusic/player.py:46
+msgid "Repeat All"
+msgstr "Ripet dut"
+
+#: lingmomusic/player.py:47
+msgid "Shuffle/Repeat Off"
+msgstr "Messede/ripet studâts"
+
+#: lingmomusic/playlisttoast.py:55
+msgid "Playlist {} removed"
+msgstr "Liste di musichis {} gjavade"
+
+#: lingmomusic/playlisttoast.py:56 lingmomusic/songtoast.py:65
+msgid "Undo"
+msgstr "Anule"
+
+#: lingmomusic/songtoast.py:64
+msgid "{} removed from {}"
+msgstr "{} gjavât di {}"
+
+#: lingmomusic/utils.py:92
+msgid "Unknown album"
+msgstr "Album no cognossût"
+
+#: lingmomusic/utils.py:113
+msgid "Unknown Artist"
+msgstr "Artist no cognossût"
+
+#: lingmomusic/views/emptyview.py:65
+msgid "Your XDG Music directory is not set."
+msgstr "La tô cartele XDG di Musiche no je stabilide."
+
+# minuscul parce che al ven fûr la prime volte che si invie il program e il
+# test al è tal mieç di une frase:
+# Il contignût de tô cartele di musiche...
+#: lingmomusic/views/emptyview.py:72
+msgid "Music Folder"
+msgstr "cartele de musiche"
+
+# %s o ai viodût che al ven fûr "cartele di musiche"
+#. TRANSLATORS: This is a label to display a link to open user's music
+#. folder. {} will be replaced with the translated text 'Music folder'
+#: lingmomusic/views/emptyview.py:76
+msgid "The contents of your {} will appear here."
+msgstr "Il contignût de tô {} al vignarà mostrât achì."
+
+#: lingmomusic/views/emptyview.py:124
+msgid "No Music Found"
+msgstr "Nissune musiche cjatade"
+
+#: lingmomusic/views/emptyview.py:125
+msgid "Try a Different Search"
+msgstr "Prove une ricercje diferente"
+
+#: lingmomusic/views/emptyview.py:129
+msgid "Lingmo Music could not connect to Tracker."
+msgstr "Lingmo Musiche nol è rivât a conetisi al Tracker."
+
+#: lingmomusic/views/emptyview.py:131
+msgid "Your music files cannot be indexed without Tracker running."
+msgstr ""
+"I tiei files di musiche no puedin jessi metûts in tabele cence vê in "
+"esecuzion Tracker."
+
+#: lingmomusic/views/emptyview.py:137
+msgid "Your system Tracker version seems outdated."
+msgstr "La version di Tracker dal to sisteme e somee sorpassade."
+
+#: lingmomusic/views/emptyview.py:139
+msgid "Music needs Tracker version 3.0.0 or higher."
+msgstr "Musiche al à bisugne de version 3.0.0 (o plui resinte) di Tracker."
+
+#: lingmomusic/views/playlistsview.py:45
+msgid "Playlists"
+msgstr "Listis di musichis"
+
+#: lingmomusic/views/searchview.py:304
+msgid "Artists Results"
+msgstr "Risultâts artiscj"
+
+#: lingmomusic/views/searchview.py:318
+msgid "Albums Results"
+msgstr "Risultâts album"
+
+#: lingmomusic/widgets/albumwidget.py:245
+msgid "{} minute"
+msgid_plural "{} minutes"
+msgstr[0] "{} minût"
+msgstr[1] "{} minûts"
+
+#: lingmomusic/widgets/discbox.py:75
+msgid "Disc {}"
+msgstr "Disc {}"
+
+#: lingmomusic/widgets/headerbar.py:66
+msgid "Selected {} song"
+msgid_plural "Selected {} songs"
+msgstr[0] "Selezionât {} cjançon"
+msgstr[1] "Selezionâts {} cjançons"
+
+#: lingmomusic/widgets/lastfmdialog.py:64
+msgid "Your music listening is reported to Last.fm."
+msgstr "La musiche che tu scoltis e ven segnalade a Last.fm."
+
+#: lingmomusic/widgets/lastfmdialog.py:66
+msgid "Your music listening is not reported to Last.fm."
+msgstr "La musiche che tu scoltis no ven inviade a Last.fm."
+
+#. TRANSLATORS: displays the username of the Last.fm account
+#: lingmomusic/widgets/lastfmdialog.py:70
+msgid "Logged in as {}"
+msgstr "Jentrât come {}"
+
+#: lingmomusic/widgets/lastfmdialog.py:71
+msgid "Configure"
+msgstr "Configure"
+
+#: lingmomusic/widgets/playertoolbar.py:167
+msgid "Pause"
+msgstr "Pause"
+
+#: lingmomusic/widgets/playlistcontrols.py:130
+msgid "{} Song"
+msgid_plural "{} Songs"
+msgstr[0] "{} Cjançon"
+msgstr[1] "{} Cjançons"
+
+#~ msgid "A music player and management application for Lingmo."
+#~ msgstr "Une aplicazion Lingmo par sunâ e ministrâ le proprie musiche."
+
+#~ msgid "Visit Lingmo Music website"
+#~ msgstr "Visite il sît di Lingmo Musiche"
+
+#~ msgid ""
+#~ "Lingmo Music is free software; you can redistribute it and/or modify it "
+#~ "under the terms of the GNU General Public License as published by the "
+#~ "Free Software Foundation; either version 2 of the License, or (at your "
+#~ "option) any later version.\n"
+#~ "\n"
+#~ "Lingmo Music is distributed in the hope that it will be useful, but "
+#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
+#~ "Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License along "
+#~ "with Lingmo Music; if not, write to the Free Software Foundation, Inc., 51 "
+#~ "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
+#~ "\n"
+#~ "The Lingmo Music authors hereby grant permission for non-GPL compatible "
+#~ "GStreamer plugins to be used and distributed together with GStreamer and "
+#~ "Lingmo Music.  This permission is above and beyond the permissions granted "
+#~ "by the GPL license by which Lingmo Music is covered.  If you modify this "
+#~ "code, you may extend this exception to your version of the code, but you "
+#~ "are not obligated to do so.  If you do not wish to do so, delete this "
+#~ "exception statement from your version."
+#~ msgstr ""
+#~ "Lingmo Musiche al è software libar; al è pussibil tornâ a distribuîlu o "
+#~ "modificâlu sot i tiermins de licence GNU General Public License, come "
+#~ "publicade de Free Software Foundation, version 2 o (a tô sielte) "
+#~ "cualsisei sucessive.\n"
+#~ "\n"
+#~ "Lingmo Musiche al è distribuît inte sperance che al sedi util, ma CENCE "
+#~ "NISSUNE GARANZIE, cence nancje la implicite garanzie di CUMIERÇABILITÂT o "
+#~ "IDONEITÂT A UNE FINALITÂT PARTICOLÂR.  Consultâ la licence GNU General "
+#~ "Public License par vê plui detais.\n"
+#~ "\n"
+#~ "Cun Lingmo Musiche ti varessin di vê dât ancje une copie de licence GNU "
+#~ "General Public License, in câs contrari al è pussibil domandâle scrivint "
+#~ "a: Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, "
+#~ "Boston, MA 02110-1301 USA.\n"
+#~ "\n"
+#~ "Cun cheste letare i autôrs di Lingmo Musiche a concedin il permès di doprâ "
+#~ "e distribuî i plugin GStreamer, che no son compatibii cun la GPL, adun "
+#~ "cun GStreamer e Lingmo Musiche.  Chest permès al è parsore e di là dal "
+#~ "permès concedût de licence GPL che e cuvierç Lingmo Musiche. Se tu "
+#~ "modifichis chest codiç, tu puedis estindi cheste ecezion ae tô version "
+#~ "dal codiç, ma no tu sês obleât a fâlu.  Se no tu desideris fâlu, elimine "
+#~ "cheste declarazion di ecezion de tô version."
+
+# %s o ai viodût che al ven fûr "cartele di musiche"
+#~ msgid "The contents of your Music Folder will appear here"
+#~ msgstr "Il contignût de tô cartele Musiche al vignarà mostrât achì"
+
+#~ msgid "Lingmo Music"
+#~ msgstr "Lingmo Musiche"
+
+#~ msgid "Window position"
+#~ msgstr "Posizion barcon"
+
+#~ msgid "Window position (x and y)."
+#~ msgstr "Posizion barcon (x e y)."
+
+#~ msgid "Loading"
+#~ msgstr "Daûr a cjariâ"
+
+#~ msgid "Add to Playlist…"
+#~ msgstr "Zonte te liste des musichis…"
+
+#~ msgid ""
+#~ "An easy way to play your music. Automatically discover music on your "
+#~ "computer, the local network and internet services."
+#~ msgstr ""
+#~ "Une maniere semplice par riprodusi la tô musiche. Cjate in automatic la "
+#~ "musiche sul to computer, su pe rêt locâl e sui servizis internet."
+
+#~ msgid ""
+#~ "Find tracks in your local collection, get music from DLNA servers or try "
+#~ "something new with the Jamendo and Magnatune services."
+#~ msgstr ""
+#~ "Cjate i tocs te colezion locâl, oten musiche dai servidôrs DLNA o cîr alc "
+#~ "di gnûf cui servizis Jamendo e Magnatune."
+
+#~ msgid "Inital state has been displayed"
+#~ msgstr "Il stât iniziâl al è stât mostrât"
+
+#~ msgid "Set to true when initial state has been displayed"
+#~ msgstr "Imposte a vêr cuant che il stât iniziâl al è stât mostrât"
+
+#~ msgid "Released"
+#~ msgstr "Publicât"
+
+#~ msgid "Running Length"
+#~ msgstr "Durade"
+
+#~ msgid "Composer"
+#~ msgstr "Compositôr"
+
+#~ msgctxt "context menu item"
+#~ msgid "Play"
+#~ msgstr "Riprodûs"
+
+#~ msgid "Hey DJ"
+#~ msgstr "Hey DJ"
+
+#~ msgid "All"
+#~ msgstr "Dut"
+
+#~ msgid "Artist"
+#~ msgstr "Artist"
+
+#~ msgid "Album"
+#~ msgstr "Album"
+
+#~ msgid "Track Title"
+#~ msgstr "Titul"
+
+#~ msgid "Local"
+#~ msgstr "Locâl"
+
+#~ msgid "Sources"
+#~ msgstr "Sorzints"
+
+#~ msgid "Match"
+#~ msgstr "Corispuindince"
+
+#~ msgid "@icon@"
+#~ msgstr "@icon@"
+
+#~ msgid "Untitled"
+#~ msgstr "Cence Titul"
+
+#~ msgid "_Quit"
+#~ msgstr "_Jes"
+
+#~ msgid "Music is the new Lingmo music playing application."
+#~ msgstr "Musiche e je le gnove aplicazion Lingmo par riprodusi musiche."
+
+#~ msgid "org.lingmo.Music"
+#~ msgstr "org.lingmo.Music"
+
+#~ msgid "Selected %d item"
+#~ msgid_plural "Selected %d items"
+#~ msgstr[0] "Selezionât %d element"
+#~ msgstr[1] "Selezionâts %d elements"
+
+#~ msgid "Empty"
+#~ msgstr "Vueit"
+
+#~ msgid "Search mode"
+#~ msgstr "Modalitât di ricercje"
+
+#~ msgid "If true, the search bar is shown."
+#~ msgstr "Se vêr, la sbare di ricercje a ven mostrade."
+
+#~ msgid "Notifications mode"
+#~ msgstr "Modalitât di notificazion"
+
+#~ msgid "Enables or disables playback notifications"
+#~ msgstr "Abilite o no lis notificazions di riproduzion"
+
+#~ msgid "%d min"
+#~ msgstr "%d min"
+
+#~ msgid "Select Playlist"
+#~ msgstr "Selezione liste des musichis"
+
+#~ msgid "the|a|an"
+#~ msgstr "the|a|an|il|i|la|lis|un|une|l'"
+
+#~ msgid "Max chars to display in track name on Artist view"
+#~ msgstr ""
+#~ "Numar massim di caratars di mostrâ tal non de cjançon inte visualizazion "
+#~ "Artist"
+
+#~ msgid ""
+#~ "This setting modifies the amount of chars for track title on Artist view "
+#~ "before its been ellipsized. Set this to -1 to disable"
+#~ msgstr ""
+#~ "Cheste impostazion a cambie il cuantitatîf di caratars par il titul de "
+#~ "cjançon inte visualizazion Artist prime che al sedi mitût intun elìs. Met "
+#~ "chest valôr come -1 par no abilitâ"
+
+#~ msgid "the a an"
+#~ msgstr "Il la i lis the a an un une"
+
+#~ msgid "All Artists"
+#~ msgstr "Ducj i artiscj"
+
+#~ msgid "Not playing"
+#~ msgstr "Cuiet"
+
+#~ msgid "by %s, from %s"
+#~ msgstr "di %s, dal album %s"
+
+#~ msgid "_New Playlist"
+#~ msgstr "_Gnove liste di musichis"

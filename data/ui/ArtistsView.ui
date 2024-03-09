@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <template class="ArtistsView" parent="GtkPaned">
+    <property name="shrink-start-child">0</property>
+    <child>
+      <object class="GtkScrolledWindow">
+        <property name="width_request">220</property>
+        <child>
+          <object class="GtkListView" id="_sidebar">
+            <property name="single-click-activate">True</property>
+            <signal name="activate" handler="_on_artist_activated" swapped="no"/>
+            <style>
+              <class name="navigation-sidebar"/>
+            </style>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="GtkScrolledWindow" id="_artist_view">
+        <property name="hexpand">True</property>
+        <property name="vexpand">True</property>
+      </object>
+    </child>
+  </template>
+</interface>

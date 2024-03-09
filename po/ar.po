@@ -1,0 +1,384 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# aldileroi <alaeddinebensalah@gmail.com>, 2014.
+# Safa Alfulaij <safa1996alfulaij@gmail.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: Lingmo 3.12\n"
+"Report-Msgid-Bugs-To: http://bugzilla.lingmo.org/enter_bug.cgi?product=lingmo-"
+"music&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-07-16 18:53+0000\n"
+"PO-Revision-Date: 2014-07-16 23:42+0300\n"
+"Last-Translator: Safa Alfulaij <safa1996alfulaij@gmail.com>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"language/ar/)\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: ../data/org.lingmo.Music.gschema.xml.h:1
+msgid "Window size"
+msgstr "حجم النافذة"
+
+#: ../data/org.lingmo.Music.gschema.xml.h:2
+msgid "Window size (width and height)."
+msgstr "حجم النافذة (العرض والارتفاع)."
+
+#: ../data/org.lingmo.Music.gschema.xml.h:3
+msgid "Window position"
+msgstr "موضع النافذة"
+
+#: ../data/org.lingmo.Music.gschema.xml.h:4
+msgid "Window position (x and y)."
+msgstr "موضع النافذة (x و y)."
+
+#: ../data/org.lingmo.Music.gschema.xml.h:5
+msgid "Window maximized"
+msgstr "النافذة مُكبّرة"
+
+#: ../data/org.lingmo.Music.gschema.xml.h:6
+msgid "Window maximized state."
+msgstr "حالة تكبير النافذة."
+
+#: ../data/org.lingmo.Music.gschema.xml.h:7
+msgid "Playback repeat mode"
+msgstr "وضع تكرار التشغيل"
+
+#. Translators: Don't translate allowed values, just the description in the brackets
+#: ../data/org.lingmo.Music.gschema.xml.h:9
+msgid ""
+"Value identifies whether to repeat or randomize playback through the "
+"collection. Allowed values are: \"none\" (repeat and shuffle are off), \"song"
+"\" (repeat current song), \"all\" (repeat playlist, no shuffle), \"shuffle"
+"\" (shuffle playlist, presumes repeat all)."
+msgstr ""
+"قيمة تحدّد فيما إذا كان التكرار بطريقة عشوائية أو من خلال تشغيل المجموعة. "
+"القيم المسموح بها هي: \"none\" (التكرار والخلط معطّلان)، \"song\" (تكرار "
+"الأغنية الحالية)، \"all\" (تكرار قائمة الأغاني، لا خلط)، \"shuffle\" (خلط "
+"قائمة الأغاني، يفترض تكرار كل شيء)."
+
+#: ../data/org.lingmo.Music.gschema.xml.h:10
+msgid "Search mode"
+msgstr "وضع البحث"
+
+#: ../data/org.lingmo.Music.gschema.xml.h:11
+msgid "If true, the search bar is shown."
+msgstr "إذا كان صحيحًا، سيظهر شريط البحث."
+
+#: ../data/lingmo-music.desktop.in.h:1 ../lingmomusic/application.py:50
+#: ../lingmomusic/application.py:112 ../lingmomusic/window.py:62
+#: ../data/AboutDialog.ui.in.h:1
+msgid "Music"
+msgstr "موسيقى"
+
+#: ../data/lingmo-music.desktop.in.h:2
+msgid "Music Player"
+msgstr "مشغّل الموسيقى"
+
+#: ../data/lingmo-music.desktop.in.h:3 ../data/lingmo-music.appdata.xml.in.h:2
+msgid "Play and organize your music collection"
+msgstr "شغل ونظّم مجموعتك الموسيقية"
+
+#: ../data/lingmo-music.appdata.xml.in.h:1
+msgid "Lingmo Music"
+msgstr "موسيقى جنوم"
+
+#: ../data/lingmo-music.appdata.xml.in.h:3
+msgid "Music is the new Lingmo music playing application."
+msgstr "موسيقى هو تطبيق جنوم لتشغيل الموسيقى الجديد."
+
+#: ../lingmomusic/albumArtCache.py:100 ../lingmomusic/albumArtCache.py:108
+msgid "Untitled"
+msgstr "غير معنون"
+
+#: ../lingmomusic/mpris.py:133 ../lingmomusic/notification.py:100
+#: ../lingmomusic/player.py:400 ../lingmomusic/view.py:577
+#: ../lingmomusic/view.py:964 ../lingmomusic/view.py:1291
+msgid "Unknown Album"
+msgstr "ألبوم مجهول"
+
+#: ../lingmomusic/mpris.py:149 ../lingmomusic/notification.py:98
+#: ../lingmomusic/player.py:391 ../lingmomusic/view.py:286
+#: ../lingmomusic/view.py:486 ../lingmomusic/view.py:720
+#: ../lingmomusic/view.py:1068 ../lingmomusic/view.py:1289
+#: ../lingmomusic/view.py:1320 ../lingmomusic/widgets.py:184
+#: ../lingmomusic/widgets.py:563
+msgid "Unknown Artist"
+msgstr "فنّان مجهول"
+
+#: ../lingmomusic/notification.py:89
+msgid "Not playing"
+msgstr "متوقّف"
+
+#. TRANSLATORS: by refers to the artist, from to the album
+#: ../lingmomusic/notification.py:104
+#, python-format
+msgid "by %s, from %s"
+msgstr "أدّاها %s، من %s"
+
+#: ../lingmomusic/notification.py:128 ../data/PlayerToolbar.ui.h:5
+msgid "Previous"
+msgstr "السابقة"
+
+#: ../lingmomusic/notification.py:131 ../lingmomusic/player.py:348
+msgid "Pause"
+msgstr "ألبِث"
+
+#: ../lingmomusic/notification.py:134 ../lingmomusic/player.py:351
+#: ../data/PlayerToolbar.ui.h:6
+msgid "Play"
+msgstr "شغّل"
+
+#: ../lingmomusic/notification.py:136 ../data/PlayerToolbar.ui.h:7
+msgid "Next"
+msgstr "التالية"
+
+#: ../lingmomusic/searchbar.py:30 ../lingmomusic/searchbar.py:73
+msgid "All"
+msgstr "الكلّ"
+
+#: ../lingmomusic/searchbar.py:31
+msgid "Artist"
+msgstr "الفنّان"
+
+#: ../lingmomusic/searchbar.py:32
+msgid "Album"
+msgstr "الألبوم"
+
+#: ../lingmomusic/searchbar.py:33
+msgid "Track Title"
+msgstr "عنوان المقطوعة"
+
+#: ../lingmomusic/searchbar.py:74
+msgid "Local"
+msgstr "المحليّ"
+
+#: ../lingmomusic/searchbar.py:176
+msgid "Sources"
+msgstr "المصادر"
+
+#: ../lingmomusic/searchbar.py:183
+msgid "Match"
+msgstr "طابق"
+
+#: ../lingmomusic/view.py:201 ../lingmomusic/widgets.py:225
+#: ../lingmomusic/widgets.py:442 ../lingmomusic/window.py:278
+#, python-format
+msgid "Selected %d item"
+msgid_plural "Selected %d items"
+msgstr[0] "لا عناصر محدّدة (%d)"
+msgstr[1] "عنصر واحد محدّد (%d)"
+msgstr[2] "عنصران محدّدان (%d)"
+msgstr[3] "%d عناصر محدّدة"
+msgstr[4] "%d عنصرًا محدّدًا"
+msgstr[5] "%d عنصر محدّد"
+
+#: ../lingmomusic/view.py:203 ../lingmomusic/widgets.py:227
+#: ../lingmomusic/widgets.py:444 ../lingmomusic/window.py:282
+#: ../lingmomusic/window.py:294 ../data/headerbar.ui.h:3
+msgid "Click on items to select them"
+msgstr "انقر على العناصر لتحديدها"
+
+#: ../lingmomusic/view.py:340
+#, python-format
+msgid ""
+"No Music found!\n"
+" Put some files into the folder %s"
+msgstr ""
+"لم يُعثر على موسيقى!\n"
+" ضع بعض الملفات في المجلد %s"
+
+#: ../lingmomusic/view.py:348 ../lingmomusic/view.py:1535
+msgid "Albums"
+msgstr "الألبومات"
+
+#: ../lingmomusic/view.py:430 ../lingmomusic/view.py:1537
+msgid "Songs"
+msgstr "الأغاني"
+
+#: ../lingmomusic/view.py:594 ../lingmomusic/view.py:1536
+msgid "Artists"
+msgstr "الفنّانون"
+
+#: ../lingmomusic/view.py:639 ../lingmomusic/view.py:641
+#: ../lingmomusic/widgets.py:451
+msgid "All Artists"
+msgstr "كلّ الفنانين"
+
+#: ../lingmomusic/view.py:800 ../lingmomusic/view.py:1538
+msgid "Playlists"
+msgstr "قوائم التشغيل"
+
+#: ../lingmomusic/view.py:1080
+#, python-format
+msgid "%d Song"
+msgid_plural "%d Songs"
+msgstr[0] "لا أغاني (%d)"
+msgstr[1] "أغنية واحدة (%d)"
+msgstr[2] "أغنيتان (%d)"
+msgstr[3] "%d أغاني"
+msgstr[4] "%d أغنية"
+msgstr[5] "%d أغنية"
+
+#: ../lingmomusic/widgets.py:677
+msgid "New Playlist"
+msgstr "قائمة تشغيل جديدة"
+
+#: ../lingmomusic/window.py:226
+msgid "Empty"
+msgstr "فارغ"
+
+#: ../data/AboutDialog.ui.in.h:2
+msgid "Copyright © 2013 Lingmo Music Developers"
+msgstr "حقوق النسخ © 2013 مطوّرو موسيقى جنوم"
+
+#: ../data/AboutDialog.ui.in.h:3
+msgid "A music player and management application for Lingmo."
+msgstr "برمجية جنوم لتشغيل الموسيقى وإدارتها."
+
+#: ../data/AboutDialog.ui.in.h:4
+msgid "Visit Lingmo Music website"
+msgstr "زُر موقع وِب موسيقى جنوم"
+
+#: ../data/AboutDialog.ui.in.h:5
+msgid ""
+"Lingmo Music is free software; you can redistribute it and/or modify it under "
+"the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
+"\n"
+"Lingmo Music is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"Lingmo Music; if not, write to the Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
+"\n"
+"The Lingmo Music authors hereby grant permission for non-GPL compatible "
+"GStreamer plugins to be used and distributed together with GStreamer and "
+"Lingmo Music.  This permission is above and beyond the permissions granted by "
+"the GPL license by which Lingmo Music is covered.  If you modify this code, "
+"you may extend this exception to your version of the code, but you are not "
+"obligated to do so.  If you do not wish to do so, delete this exception "
+"statement from your version."
+msgstr ""
+"موسيقى جنوم برنامج حر؛ بإمكانك إعادة توزيعه و/أو تعديله تحت شروط الرخصة "
+"العمومية العامة لجنو والتي نشرتها منظمة البرمجيات الحرة؛ سواء الإصدارة 2 من "
+"الرخصة أو أي إصدارة بعدها حسب رغبتك.\n"
+"\n"
+"يوزّع موسيقى جنوم على أمل أن يكون مفيدًا لمن يستخدمه، دون أدنى مسؤولية؛ ولا "
+"حتى أي ضمان يضمن صلاحية العرض في السوق أو توافقه مع أي استخدام محدد. يمكنك "
+"مراجعة الرخصة العمومية العامة لجنو لمزيد من التفاصيل.\n"
+"\n"
+"من المفترض أن تكون قد استلمت نسخة من رخصة جنو العامةمع موسيقى جنوم؛ في حال "
+"عدم استلامك لذلك، يمكنك مكاتبة:\n"
+"Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA "
+"02110-1301 USA.\n"
+"\n"
+"يمنح كاتبو موسيقى جنوم إذن استخدام ملحقات GStreamer غير المتوافقة مع GPL "
+"وتوزيعها مع GStreamer وموسيقى جنوم. هذا الإذن هو تجاوز للأذون الممنوحة من "
+"رخصة GPL التي أُصدر موسيقى جنوم بها. إن عدّلت هذه الشِفرة، قد ترغب بتوسيع هذا "
+"الاستثناء إلى إصدار الشِفرة خاصّتك، ولكنك لست ملزمًا بذلك. إن لم ترغب بذلك، "
+"احذف بيان الاستثناء هذا من الإصدار خاصّتك."
+
+#: ../data/AlbumWidget.ui.h:1
+msgid "Released"
+msgstr "أُصدر في"
+
+#: ../data/AlbumWidget.ui.h:2
+msgid "Running Length"
+msgstr "طول التشغيل"
+
+#: ../data/app-menu.ui.h:1
+msgid "_New Playlist"
+msgstr "قائمة تشغيل _جديدة"
+
+#: ../data/app-menu.ui.h:2
+msgid "_Help"
+msgstr "م_ساعدة"
+
+#: ../data/app-menu.ui.h:3
+msgid "_About"
+msgstr "_عنْ"
+
+#: ../data/app-menu.ui.h:4
+msgid "_Quit"
+msgstr "أ_نهِ"
+
+#: ../data/PlayerToolbar.ui.h:1
+msgid "Shuffle"
+msgstr "اخلط"
+
+#: ../data/PlayerToolbar.ui.h:2
+msgid "Repeat All"
+msgstr "كرّر الكلّ"
+
+#: ../data/PlayerToolbar.ui.h:3
+msgid "Repeat Song"
+msgstr "كرّر الأغنية"
+
+#: ../data/PlayerToolbar.ui.h:4
+msgid "Shuffle/Repeat Off"
+msgstr "أوقف الخلط/التكرار"
+
+#: ../data/NoMusic.ui.h:1
+msgid "No Music Found"
+msgstr "لم يُعثر على موسيقى"
+
+#: ../data/headerbar.ui.h:1
+msgid "Select All"
+msgstr "حدّد الكلّ"
+
+#: ../data/headerbar.ui.h:2
+msgid "Select None"
+msgstr "حدّد لا شيء"
+
+#: ../data/headerbar.ui.h:4
+msgid "Search"
+msgstr "ابحث"
+
+#: ../data/headerbar.ui.h:5 ../data/PlaylistDialog.ui.h:3
+msgid "Select"
+msgstr "اختر"
+
+#: ../data/headerbar.ui.h:6 ../data/PlaylistDialog.ui.h:2
+msgid "Cancel"
+msgstr "ألغِ"
+
+#: ../data/headerbar.ui.h:7
+msgid "Back"
+msgstr "ارجع"
+
+#: ../data/SelectionToolbar.ui.h:1
+msgid "Add to Playlist"
+msgstr "أضف إلى قائمة التشغيل"
+
+#: ../data/SelectionToolbar.ui.h:2
+msgid "Remove from Playlist"
+msgstr "أزِل من قائمة التشغيل"
+
+#: ../data/PlaylistControls.ui.h:1
+msgid "_Play"
+msgstr "_شغّل"
+
+#: ../data/PlaylistControls.ui.h:2
+msgid "_Delete"
+msgstr "اح_ذف"
+
+#: ../data/PlaylistDialog.ui.h:1
+msgid "Select Playlist"
+msgstr "اختر قائمة تشغيل"
+
+#~ msgid "Load More"
+#~ msgstr "تحميل المزيد"
+
+#~ msgid "Loading..."
+#~ msgstr "تحميل ..."

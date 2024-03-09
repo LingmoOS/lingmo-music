@@ -1,0 +1,754 @@
+# Finnish translation for lingmo-music.
+# Copyright (C) 2013 lingmo-music's COPYRIGHT HOLDER
+# This file is distributed under the same license as the lingmo-music package.
+# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2013, 2014, 2015, 2016, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lingmo-music master\n"
+"Report-Msgid-Bugs-To: https://gitlab.lingmo.org/Lingmo/lingmo-music/issues\n"
+"POT-Creation-Date: 2023-07-04 07:49+0000\n"
+"PO-Revision-Date: 2023-08-07 18:10+0300\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
+"Language-Team: suomi <lokalisointi-lista@googlegroups.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: data/org.lingmo.Music.appdata.xml.in.in:6
+#: data/org.lingmo.Music.desktop.in.in:3 lingmomusic/about.py:243
+#: lingmomusic/application.py:61 lingmomusic/window.py:71
+msgid "Music"
+msgstr "Musiikki"
+
+#: data/org.lingmo.Music.appdata.xml.in.in:7
+#: data/org.lingmo.Music.desktop.in.in:5
+msgid "Play and organize your music collection"
+msgstr "Toista ja hallitse musiikkikokoelmaasi"
+
+#: data/org.lingmo.Music.appdata.xml.in.in:9
+msgid "An easy and pleasant way to play your music."
+msgstr "Helppo ja mieluisa tapa toistaa musiikkia."
+
+#: data/org.lingmo.Music.appdata.xml.in.in:12
+msgid ""
+"Find tracks in your local collection, use automatically generated playlists "
+"or curate a fresh one."
+msgstr ""
+"Löydä kappaleet paikallisesta kokoelmastasi, käytä automaattisesti luotuja "
+"soittolistoja tai valikoi itse parhaat kappaleet soittolistalle."
+
+#: data/org.lingmo.Music.appdata.xml.in.in:182
+msgid "The Lingmo Music developers"
+msgstr "Lingmon musiikkisoittimen kehittäjät"
+
+#: data/org.lingmo.Music.desktop.in.in:4
+msgid "Music Player"
+msgstr "Musiikkisoitin"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.lingmo.Music.desktop.in.in:13
+msgid "Music;Player;"
+msgstr "Music;Player;Musiikkisoitin;Musiikki;"
+
+#: data/org.lingmo.Music.gschema.xml:12
+msgid "Window size"
+msgstr "Ikkunan koko"
+
+#: data/org.lingmo.Music.gschema.xml:13
+msgid "Window size (width and height)."
+msgstr "Ikkunan koko (leveys ja korkeus)."
+
+#: data/org.lingmo.Music.gschema.xml:17
+msgid "Window maximized"
+msgstr "Suurennettu ikkuna"
+
+#: data/org.lingmo.Music.gschema.xml:18
+msgid "Window maximized state."
+msgstr "Suurennetun ikkunan tila."
+
+#: data/org.lingmo.Music.gschema.xml:22
+msgid "Playback repeat mode"
+msgstr "Toiston kertaustila"
+
+#. Translators: Don't translate allowed values, just the description in the brackets
+#: data/org.lingmo.Music.gschema.xml:24
+msgid ""
+"Value identifies whether to repeat or randomize playback through the "
+"collection. Allowed values are: “none” (repeat and shuffle are off), "
+"“song” (repeat current song), “all” (repeat playlist, no shuffle), "
+"“shuffle” (shuffle playlist, presumes repeat all)."
+msgstr ""
+"Arvo esittää, kerrataanko tai sekoitetaanko toistoa kokoelmaa käyttäen. "
+"Sallitut arvot ovat: \"none\" (ei kertausta tai sekoitusta), "
+"\"song\" (kertaa nykyistä kappaletta), \"all\" (kertaa soittolistaa, ei "
+"sekoitusta) ja \"shuffle\" (sekoita soittolista, kertaus kaiken suhteen)."
+
+#: data/org.lingmo.Music.gschema.xml:28
+msgid "Enable ReplayGain"
+msgstr "Käytä ReplayGainia"
+
+#: data/org.lingmo.Music.gschema.xml:29
+msgid "Enables or disables ReplayGain for albums"
+msgstr "Ottaa käyttöön/poistaa käytöstä ReplayGainin albumeille"
+
+#: data/org.lingmo.Music.gschema.xml:33
+msgid "Inhibit system suspend"
+msgstr "Estä järjestelmän valmiustila"
+
+#: data/org.lingmo.Music.gschema.xml:34
+msgid "Enables or disables inhibiting system suspend while playing music"
+msgstr ""
+"Ottaa käyttöön tai poistaa käytöstä järjestelmän valmiustilaan siirtymisen "
+"estämisen kun musiikkia toistetaan"
+
+#: data/org.lingmo.Music.gschema.xml:38
+msgid "Report music history to Last.fm"
+msgstr "Raportoi kuunteluhistoria Last.fm:ään"
+
+#: data/org.lingmo.Music.gschema.xml:39
+msgid ""
+"Enables or disables sending scrobbles and the “currently playing” info to "
+"Last.fm."
+msgstr ""
+"Ottaa käyttöön tai poistaa käytöstä kuunteluhistorian ja \"Nyt toistetaan\"-"
+"tietojen lähettämisen Last.fm:ään."
+
+#: data/ui/AlbumWidget.ui:84 data/ui/PlayerToolbar.ui:87
+#: data/ui/PlaylistControls.ui:101 lingmomusic/widgets/playertoolbar.py:170
+msgid "Play"
+msgstr "Toista"
+
+#: data/ui/AlbumWidget.ui:130 data/ui/PlaylistControls.ui:5
+#: data/ui/SongWidgetMenu.ui:11
+msgid "_Play"
+msgstr "_Toista"
+
+#: data/ui/AlbumWidget.ui:134
+msgid "Add to _Favorite Songs"
+msgstr "Lisää _suosikkikappaleisiin"
+
+#: data/ui/AlbumWidget.ui:138 data/ui/SongWidgetMenu.ui:15
+msgid "_Add to Playlist…"
+msgstr "Lisää s_oittolistalle…"
+
+#: data/ui/AppMenu.ui:23 data/ui/LastfmDialog.ui:8
+msgid "Last.fm Account"
+msgstr "Last.fm-tili"
+
+#: data/ui/AppMenu.ui:36
+msgid "Report Music Listening"
+msgstr "Raportoi kuunteluhistoria"
+
+#: data/ui/AppMenu.ui:58
+msgid "_Keyboard Shortcuts"
+msgstr "_Pikanäppäimet"
+
+#: data/ui/AppMenu.ui:68
+msgid "_Help"
+msgstr "_Ohje"
+
+#: data/ui/AppMenu.ui:78
+msgid "_About Music"
+msgstr "_Tietoja - Musiikki"
+
+#: data/ui/EmptyView.ui:30
+msgid "Welcome to Music"
+msgstr "Tervetuloa, tämä on Musiikki"
+
+#: data/ui/HeaderBar.ui:17
+msgid "Menu"
+msgstr "Valikko"
+
+#: data/ui/HeaderBar.ui:25 data/ui/SearchHeaderBar.ui:15
+msgid "Select"
+msgstr "Valitse"
+
+#: data/ui/HeaderBar.ui:31 data/ui/PlaylistDialog.ui:213
+#: data/ui/SearchHeaderBar.ui:20
+msgid "_Cancel"
+msgstr "_Peru"
+
+#: data/ui/HeaderBar.ui:43 data/ui/SearchHeaderBar.ui:32
+msgid "Search"
+msgstr "Hae"
+
+#: data/ui/HeaderBar.ui:51
+msgid "Back"
+msgstr "Takaisin"
+
+#: data/ui/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Yleiset"
+
+#: data/ui/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Close window"
+msgstr "Sulje ikkuna"
+
+#: data/ui/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Haku"
+
+#: data/ui/help-overlay.ui:26
+msgctxt "shortcut window"
+msgid "Help"
+msgstr "Ohje"
+
+#: data/ui/help-overlay.ui:32
+msgctxt "shortcut window"
+msgid "Shortcuts"
+msgstr "Pikanäppäimet"
+
+#: data/ui/help-overlay.ui:40
+msgctxt "shortcut window"
+msgid "Playback"
+msgstr "Toista"
+
+#: data/ui/help-overlay.ui:43
+msgctxt "shortcut window"
+msgid "Play/Pause"
+msgstr "Toista/keskeytä"
+
+#: data/ui/help-overlay.ui:49
+msgctxt "shortcut window"
+msgid "Next song"
+msgstr "Seuraava kappale"
+
+#: data/ui/help-overlay.ui:55
+msgctxt "shortcut window"
+msgid "Previous song"
+msgstr "Edellinen kappale"
+
+#: data/ui/help-overlay.ui:61
+msgctxt "shortcut window"
+msgid "Toggle repeat"
+msgstr "Kertaus päälle/pois"
+
+#: data/ui/help-overlay.ui:67
+msgctxt "shortcut window"
+msgid "Toggle shuffle"
+msgstr "Sekoitus päälle/pois"
+
+#: data/ui/help-overlay.ui:75
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Liikkuminen"
+
+#: data/ui/help-overlay.ui:78
+msgctxt "shortcut window"
+msgid "Go to Albums"
+msgstr "Siirry albumeihin"
+
+#: data/ui/help-overlay.ui:84
+msgctxt "shortcut window"
+msgid "Go to Artists"
+msgstr "Siirry esittäjiin"
+
+#: data/ui/help-overlay.ui:90
+msgctxt "shortcut window"
+msgid "Go to Songs"
+msgstr "Siirry kappaleisiin"
+
+#: data/ui/help-overlay.ui:96
+msgctxt "shortcut window"
+msgid "Go to Playlists"
+msgstr "Siirry soittolistoihin"
+
+#: data/ui/help-overlay.ui:102
+msgctxt "shortcut window"
+msgid "Go back"
+msgstr "Siirry takaisin"
+
+#: data/ui/LastfmDialog.ui:21
+msgid ""
+"Last.fm is a music discovery service that gives you personalised "
+"recommendations based on the music you listen to."
+msgstr ""
+"Last.fm on musiikin löytämiseen tarkoitettu palvelu, joka antaa "
+"henkilökohtaisia suosituksia pohjautuen kuuntelemaasi musiikkiin."
+
+#: data/ui/LastfmDialog.ui:31 lingmomusic/widgets/lastfmdialog.py:57
+msgid "Music Reporting Not Setup"
+msgstr "Musiikin kuunteluhistorian lähetystä ei ole määritetty"
+
+#: data/ui/LastfmDialog.ui:44 lingmomusic/widgets/lastfmdialog.py:60
+msgid "Login to your Last.fm account to report your music listening."
+msgstr "Kirjaudu Last.fm-tilillesi lähettääksesi musiikin kuunteluhistoriasi."
+
+#: data/ui/LastfmDialog.ui:55 lingmomusic/widgets/lastfmdialog.py:58
+msgid "Login"
+msgstr "Kirjaudu"
+
+#: data/ui/PlayerToolbar.ui:74
+msgid "Previous"
+msgstr "Edellinen"
+
+#: data/ui/PlayerToolbar.ui:106
+msgid "Next"
+msgstr "Seuraava"
+
+#: data/ui/PlaylistControls.ui:9
+msgid "_Delete"
+msgstr "_Poista"
+
+#: data/ui/PlaylistControls.ui:13
+msgid "_Rename…"
+msgstr "_Nimeä uudelleen…"
+
+#: data/ui/PlaylistControls.ui:28
+msgid "Playlist Name"
+msgstr "Soittolistan nimi"
+
+#: data/ui/PlaylistControls.ui:62
+msgid "_Done"
+msgstr "_Valmis"
+
+#: data/ui/PlaylistDialog.ui:52
+msgid "Enter a name for your first playlist"
+msgstr "Anna nimi ensimmäiselle soittolistallesi"
+
+#: data/ui/PlaylistDialog.ui:77
+msgid "C_reate"
+msgstr "_Luo"
+
+#: data/ui/PlaylistDialog.ui:146
+msgid "New Playlist…"
+msgstr "Uusi soittolista…"
+
+#: data/ui/PlaylistDialog.ui:161
+msgid "Add"
+msgstr "Lisää"
+
+#: data/ui/PlaylistDialog.ui:202
+msgid "Add to Playlist"
+msgstr "Lisää soittolistaan"
+
+#: data/ui/PlaylistDialog.ui:222
+msgid "_Add"
+msgstr "_Lisää"
+
+#: data/ui/SearchView.ui:33 lingmomusic/views/artistsview.py:51
+msgid "Artists"
+msgstr "Esittäjät"
+
+#: data/ui/SearchView.ui:42 data/ui/SearchView.ui:84
+msgid "View All"
+msgstr "Näytä kaikki"
+
+#: data/ui/SearchView.ui:75 lingmomusic/views/albumsview.py:56
+msgid "Albums"
+msgstr "Albumit"
+
+#: data/ui/SearchView.ui:117 lingmomusic/views/songsview.py:52
+msgid "Songs"
+msgstr "Kappaleet"
+
+#: data/ui/SelectionBarMenuButton.ui:7
+msgid "Select All"
+msgstr "Valitse kaikki"
+
+#: data/ui/SelectionBarMenuButton.ui:11
+msgid "Select None"
+msgstr "Älä valitse mitään"
+
+#: data/ui/SelectionBarMenuButton.ui:19 lingmomusic/widgets/headerbar.py:69
+msgid "Click on items to select them"
+msgstr "Napsauta kohteita valitaksesi ne"
+
+#: data/ui/SelectionToolbar.ui:8
+msgid "_Add to Playlist"
+msgstr "Lisää _soittolistalle"
+
+#: data/ui/SongWidgetMenu.ui:19
+msgid "_Remove from Playlist"
+msgstr "Poista _soittolistalta"
+
+#: lingmomusic/about.py:245
+msgid "The Lingmo Project"
+msgstr "Lingmo-projekti"
+
+#: lingmomusic/about.py:249
+msgid "translator-credits"
+msgstr "Jiri Grönroos"
+
+#: lingmomusic/about.py:253
+msgid "Copyright The Lingmo Music Developers"
+msgstr "Tekijänoikeus Lingmon musiikkisoittimen kehittäjät"
+
+#: lingmomusic/about.py:256
+msgid "Translated by"
+msgstr "Käännös"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:894
+msgid "Most Played"
+msgstr "Eniten toistettu"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:948
+msgid "Never Played"
+msgstr "Ei koskaan toistettu"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:1001
+msgid "Recently Played"
+msgstr "Äskettäin toistettu"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:1064
+msgid "Recently Added"
+msgstr "Äskettäin lisätty"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:1127
+msgid "Favorite Songs"
+msgstr "Suosikkikappaleet"
+
+#: lingmomusic/gstplayer.py:408
+msgid "Unable to play the file"
+msgstr "Tiedoston toistaminen epäonnistui"
+
+#: lingmomusic/gstplayer.py:414
+msgid "_Find in {}"
+msgstr "_Etsi sovelluksella {}"
+
+#. TRANSLATORS: separator for two codecs
+#: lingmomusic/gstplayer.py:424
+msgid " and "
+msgstr " ja "
+
+#. TRANSLATORS: separator for a list of codecs
+#: lingmomusic/gstplayer.py:427
+msgid ", "
+msgstr ", "
+
+#: lingmomusic/gstplayer.py:429
+msgid "{} is required to play the file, but is not installed."
+msgid_plural "{} are required to play the file, but are not installed."
+msgstr[0] "{} vaaditaan tiedoston toistamiseksi, mutta sitä ei ole asennettu."
+msgstr[1] "{} vaaditaan tiedoston toistamiseksi, mutta niitä ei ole asennettu."
+
+#: lingmomusic/inhibitsuspend.py:63
+msgid "Playing music"
+msgstr "Toistetaan musiikkia"
+
+#. Translators: "shuffle" causes tracks to play in random order.
+#: lingmomusic/player.py:44
+msgid "Shuffle/Repeat Off"
+msgstr "Sekoitus/kertaus pois"
+
+#: lingmomusic/player.py:45
+msgid "Repeat Song"
+msgstr "Kertaa kappale"
+
+#: lingmomusic/player.py:46
+msgid "Repeat All"
+msgstr "Kertaa kaikki"
+
+#: lingmomusic/player.py:47
+msgid "Shuffle"
+msgstr "Sekoita"
+
+#: lingmomusic/playlisttoast.py:55
+msgid "Playlist {} removed"
+msgstr "Soittolista {} poistettu"
+
+#: lingmomusic/playlisttoast.py:56 lingmomusic/songtoast.py:65
+msgid "Undo"
+msgstr "Kumoa"
+
+#: lingmomusic/songtoast.py:64
+msgid "{} removed from {}"
+msgstr "{} poistettu soittolistalta {}"
+
+#: lingmomusic/utils.py:92
+msgid "Unknown album"
+msgstr "Tuntematon albumi"
+
+#: lingmomusic/utils.py:113
+msgid "Unknown Artist"
+msgstr "Tuntematon esittäjä"
+
+#: lingmomusic/views/emptyview.py:65
+msgid "Your XDG Music directory is not set."
+msgstr "XDG:n Musiikki-kansiota ei ole määritetty."
+
+#: lingmomusic/views/emptyview.py:72
+msgid "Music Folder"
+msgstr "Musiikkikansio"
+
+#. TRANSLATORS: This is a label to display a link to open user's music
+#. folder. {} will be replaced with the translated text 'Music folder'
+#: lingmomusic/views/emptyview.py:76
+msgid "The contents of your {} will appear here."
+msgstr "{}n sisältö ilmestyy tähän."
+
+#: lingmomusic/views/emptyview.py:124
+msgid "No Music Found"
+msgstr "Musiikkia ei löytynyt"
+
+#: lingmomusic/views/emptyview.py:125
+msgid "Try a Different Search"
+msgstr "Yritä hakea eri hakuehdoilla"
+
+#: lingmomusic/views/emptyview.py:129
+msgid "Lingmo Music could not connect to Tracker."
+msgstr "Musiikki ei voinut yhdistää Trackeriin."
+
+#: lingmomusic/views/emptyview.py:131
+msgid "Your music files cannot be indexed without Tracker running."
+msgstr "Musiikkitiedostojasi ei voi indeksoida, jos Tracker ei ole käynnissä."
+
+#: lingmomusic/views/emptyview.py:137
+msgid "Your system Tracker version seems outdated."
+msgstr "Järjestelmään asennettu Tracker vaikuttaa olevan vanhentunut."
+
+#: lingmomusic/views/emptyview.py:139
+msgid "Music needs Tracker version 3.0.0 or higher."
+msgstr "Musiikki tarvitsee Trackerin version 3.0.0 tai uudemman."
+
+#: lingmomusic/views/playlistsview.py:45
+msgid "Playlists"
+msgstr "Soittolistat"
+
+#: lingmomusic/views/searchview.py:304
+msgid "Artists Results"
+msgstr "Esittäjätulokset"
+
+#: lingmomusic/views/searchview.py:318
+msgid "Albums Results"
+msgstr "Albumitulokset"
+
+#: lingmomusic/widgets/albumwidget.py:245
+msgid "{} minute"
+msgid_plural "{} minutes"
+msgstr[0] "{} minuutti"
+msgstr[1] "{} minuuttia"
+
+#: lingmomusic/widgets/discbox.py:75
+msgid "Disc {}"
+msgstr "Levy {}"
+
+#: lingmomusic/widgets/headerbar.py:66
+msgid "Selected {} song"
+msgid_plural "Selected {} songs"
+msgstr[0] "{} kappale valittu"
+msgstr[1] "{} kappaletta valittu"
+
+#: lingmomusic/widgets/lastfmdialog.py:64
+msgid "Your music listening is reported to Last.fm."
+msgstr "Musiikin kuunteluhistoriasi lähetetään Last.fm:ään."
+
+#: lingmomusic/widgets/lastfmdialog.py:66
+msgid "Your music listening is not reported to Last.fm."
+msgstr "Musiikin kuunteluhistoriaasi ei lähetetä Last.fm:ään."
+
+#. TRANSLATORS: displays the username of the Last.fm account
+#: lingmomusic/widgets/lastfmdialog.py:70
+msgid "Logged in as {}"
+msgstr "Kirjautuneena tilillä {}"
+
+#: lingmomusic/widgets/lastfmdialog.py:71
+msgid "Configure"
+msgstr "Määritä"
+
+#: lingmomusic/widgets/playertoolbar.py:167
+msgid "Pause"
+msgstr "Keskeytä"
+
+#: lingmomusic/widgets/playlistcontrols.py:130
+msgid "{} Song"
+msgid_plural "{} Songs"
+msgstr[0] "{} kappale"
+msgstr[1] "{} kappaletta"
+
+#: lingmomusic/widgets/searchheaderbar.py:66
+msgid "Search songs, artists, albums and playlists"
+msgstr "Etsi kappaleita, esittäjiä, albumeita ja soittolistoja"
+
+#~ msgid "A music player and management application for Lingmo."
+#~ msgstr "Lingmon musiikkisoitin."
+
+#~ msgid "Visit Lingmo Music website"
+#~ msgstr "Käy Lingmon musiikkisoittimen verkkosivustolla"
+
+#~ msgid "The contents of your Music Folder will appear here"
+#~ msgstr "Musiikki-kansion sisältö ilmestyy tähän"
+
+#~ msgid "Lingmo Music"
+#~ msgstr "Lingmon Musiikki"
+
+#~ msgid "Window position"
+#~ msgstr "Ikkunan sijainti"
+
+#~ msgid "Window position (x and y)."
+#~ msgstr "Ikkunan sijainti (x ja y)."
+
+#~ msgid "Loading"
+#~ msgstr "Ladataan"
+
+#~ msgid "Add to Playlist…"
+#~ msgstr "Lisää soittolistalle…"
+
+#~ msgid ""
+#~ "An easy way to play your music. Automatically discover music on your "
+#~ "computer, the local network and internet services."
+#~ msgstr ""
+#~ "Helppo tapa toistaa musiikkia. Löytää musiikin automaattisesti "
+#~ "tietokoneeltasi, paikallisesta verkosta ja internetpalveluista."
+
+#~ msgid ""
+#~ "Find tracks in your local collection, get music from DLNA servers or try "
+#~ "something new with the Jamendo and Magnatune services."
+#~ msgstr ""
+#~ "Etsi kappaleita paikallisesta kokoelmastasi, toista musiikkia DLNA-"
+#~ "palvelimilta tai löydä jotain uutta Jamendo- ja Magnatune-palveluista."
+
+#~ msgid "Inital state has been displayed"
+#~ msgstr "Alkutila on näytetty"
+
+#~ msgid "Set to true when initial state has been displayed"
+#~ msgstr "Aseta todeksi kun alkutila on näytetty"
+
+#~ msgid "Released"
+#~ msgstr "Julkaistu"
+
+#~ msgid "Running Length"
+#~ msgstr "Kesto"
+
+#~ msgid "Composer"
+#~ msgstr "Säveltäjä"
+
+#~ msgctxt "context menu item"
+#~ msgid "Play"
+#~ msgstr "Toista"
+
+#~ msgid "Hey DJ"
+#~ msgstr "Hei DJ"
+
+#~ msgid "All"
+#~ msgstr "Kaikki"
+
+#~ msgid "Artist"
+#~ msgstr "Esittäjä"
+
+#~ msgid "Album"
+#~ msgstr "Albumi"
+
+#~ msgid "Track Title"
+#~ msgstr "Kappaleen nimi"
+
+#~ msgid "Local"
+#~ msgstr "Paikalliset"
+
+#~ msgid "Sources"
+#~ msgstr "Lähteet"
+
+#~ msgid "Match"
+#~ msgstr "Vastaavuus"
+
+#~ msgid "@icon@"
+#~ msgstr "@icon@"
+
+#~ msgid "Untitled"
+#~ msgstr "Nimetön"
+
+#~ msgid "_Quit"
+#~ msgstr "_Lopeta"
+
+#~ msgid "Music is the new Lingmo music playing application."
+#~ msgstr "Musiikki on Lingmon uusi musiikintoistosovellus."
+
+#~| msgid "lingmo-music"
+#~ msgid "org.lingmo.Music"
+#~ msgstr "org.lingmo.Music"
+
+#~ msgid "Search mode"
+#~ msgstr "Hakutila"
+
+#~ msgid "If true, the search bar is shown."
+#~ msgstr "Jos tosi, hakupalkki näytetään."
+
+#~ msgid "Notifications mode"
+#~ msgstr "Ilmoitustila"
+
+#~ msgid "Enables or disables playback notifications"
+#~ msgstr "Ota käyttöön/poista käytöstä ilmoitus toistettavista kappaleista"
+
+#~ msgid "Selected %d item"
+#~ msgid_plural "Selected %d items"
+#~ msgstr[0] "Valittu %d kohde"
+#~ msgstr[1] "Valittu %d kohdetta"
+
+#~ msgid "%d min"
+#~ msgstr "%d min"
+
+#~ msgid "Empty"
+#~ msgstr "Tyhjä"
+
+#~ msgid "Select Playlist"
+#~ msgstr "Valitse soittolista"
+
+#~ msgid "the|a|an"
+#~ msgstr "the|a|an"
+
+#~ msgid "Max chars to display in track name on Artist view"
+#~ msgstr ""
+#~ "Kappaleen nimessä näytettävien merkkien enimmäismäärä esittäjänäkymässä"
+
+#~ msgid ""
+#~ "This setting modifies the amount of chars for track title on Artist view "
+#~ "before its been ellipsized. Set this to -1 to disable"
+#~ msgstr ""
+#~ "Tämä asetus muokkaa näytettävien merkkien määrää esittäjänäkymän "
+#~ "kappalenimessä, ennen kuin nimi typistetään. Jos et halua typistää "
+#~ "kappaleen nimeä, aseta arvoksi -1."
+
+#~ msgid "the a an"
+#~ msgstr "the a an"
+
+#~ msgid "All Artists"
+#~ msgstr "Kaikki esittäjät"
+
+#~ msgid "Not playing"
+#~ msgstr "Ei toistoa"
+
+#~ msgid "by %s, from %s"
+#~ msgstr "esittäjä %s, levy %s"
+
+#~ msgid ""
+#~ "No Music found!\n"
+#~ " Put some files into the folder %s"
+#~ msgstr ""
+#~ "Musiikkia ei löytynyt!\n"
+#~ " Laita musiikkitiedostoja kansioon %s"
+
+#~ msgid "_New Playlist"
+#~ msgstr "_Uusi soittolista"
+
+#~ msgid "Load More"
+#~ msgstr "Lataa lisää"
+
+#~ msgid "Now _Playing"
+#~ msgstr "_Nyt toistetaan"
+
+#~ msgid "New"
+#~ msgstr "Uusi"
+
+#~ msgid "Quit"
+#~ msgstr "Lopeta"
+
+#~ msgid "A Lingmo 3 application to listen and manage music playlists"
+#~ msgstr "Lingmo 3 -sovellus musiikin kuunteluun ja soittolistojen hallintaan"
+
+#~ msgid "%02u:%02u:%02u"
+#~ msgstr "%02u:%02u:%02u"
+
+#~ msgid "%02u:%02u"
+#~ msgstr "%02u:%02u"

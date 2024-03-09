@@ -1,0 +1,591 @@
+# Italian translation of Lingmo Music.
+# Copyright (C) 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019 Free Software Foundation, Inc.
+# Copyright (C) 2020, 2022, 2023 Free Software Foundation, Inc.
+#
+# Convenzioni usate:
+#
+# song & track
+#   Tradurre entrambi come brano tranne i casi
+#   in cui traccia è più adeguato.
+#
+# browser
+#   Ce ne sono due tipi: quello per condivisioni su
+#   Bonjour/Zeroconf ed il widget che permette di filtrare
+#   per artista/album/autore. Il primo è browser, il
+#   secondo catalogo (ove possibile distinguere)
+# Milo Casagrande <milo@milo.name>, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2022, 2023.
+# Gianvito Cavasoli <gianvito@gmx.it>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lingmo-music\n"
+"Report-Msgid-Bugs-To: https://gitlab.lingmo.org/Lingmo/lingmo-music/issues\n"
+"POT-Creation-Date: 2023-07-04 07:49+0000\n"
+"PO-Revision-Date: 2023-08-30 09:47+0200\n"
+"Last-Translator: Milo Casagrande <milo@milo.name>\n"
+"Language-Team: Italian <lingmo-it-list@lingmo.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Launchpad-Export-Date: 2012-03-06 09:28+0000\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: data/org.lingmo.Music.appdata.xml.in.in:6
+#: data/org.lingmo.Music.desktop.in.in:3 lingmomusic/about.py:243
+#: lingmomusic/application.py:61 lingmomusic/window.py:71
+msgid "Music"
+msgstr "Musica"
+
+#: data/org.lingmo.Music.appdata.xml.in.in:7
+#: data/org.lingmo.Music.desktop.in.in:5
+msgid "Play and organize your music collection"
+msgstr "Riproduce e organizza la collezione musicale"
+
+#: data/org.lingmo.Music.appdata.xml.in.in:9
+msgid "An easy and pleasant way to play your music."
+msgstr "Un modo semplice e piacevole per riprodurre la propria musica."
+
+#: data/org.lingmo.Music.appdata.xml.in.in:12
+msgid ""
+"Find tracks in your local collection, use automatically generated playlists "
+"or curate a fresh one."
+msgstr ""
+"Trova i brani nella tua raccolta locale, usa le playlist generate "
+"automaticamente o curane una nuova."
+
+#: data/org.lingmo.Music.appdata.xml.in.in:182
+msgid "The Lingmo Music developers"
+msgstr "Gli sviluppatori di Lingmo Musica"
+
+#: data/org.lingmo.Music.desktop.in.in:4
+msgid "Music Player"
+msgstr "Riproduttore musicale"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.lingmo.Music.desktop.in.in:13
+msgid "Music;Player;"
+msgstr "Musica;Riproduttore;"
+
+#: data/org.lingmo.Music.gschema.xml:12
+msgid "Window size"
+msgstr "Dimensione finestra"
+
+#: data/org.lingmo.Music.gschema.xml:13
+msgid "Window size (width and height)."
+msgstr "La dimensione della finestra (larghezza e altezza)."
+
+#: data/org.lingmo.Music.gschema.xml:17
+msgid "Window maximized"
+msgstr "Finestra massimizzata"
+
+#: data/org.lingmo.Music.gschema.xml:18
+msgid "Window maximized state."
+msgstr "Lo stato di massimizzazione della finestra."
+
+#: data/org.lingmo.Music.gschema.xml:22
+msgid "Playback repeat mode"
+msgstr "Modalità ripetizione"
+
+#. Translators: Don't translate allowed values, just the description in the brackets
+#: data/org.lingmo.Music.gschema.xml:24
+msgid ""
+"Value identifies whether to repeat or randomize playback through the "
+"collection. Allowed values are: “none” (repeat and shuffle are off), "
+"“song” (repeat current song), “all” (repeat playlist, no shuffle), "
+"“shuffle” (shuffle playlist, presumes repeat all)."
+msgstr ""
+"Indica se ripetere o riprodurre a caso la libreria musicale. Valori "
+"consentiti sono: \"none\" (ripetizione e riproduzione casuale disabilitati), "
+"\"song\" (ripete il brano corrente), \"all\" (ripete playlist, niente "
+"riproduzione casuale), \"shuffle\" (riproduzione casuale della playlist, "
+"assume di ripetere tutto)."
+
+#: data/org.lingmo.Music.gschema.xml:28
+msgid "Enable ReplayGain"
+msgstr "Abilita ReplayGain"
+
+#: data/org.lingmo.Music.gschema.xml:29
+msgid "Enables or disables ReplayGain for albums"
+msgstr "Abilita o disabilita il ReplayGain per gli album"
+
+#: data/org.lingmo.Music.gschema.xml:33
+msgid "Inhibit system suspend"
+msgstr "Inibisce la sospensione del sistema"
+
+#: data/org.lingmo.Music.gschema.xml:34
+msgid "Enables or disables inhibiting system suspend while playing music"
+msgstr ""
+"Abilita/Disabilita la sospensione del sistema quando viene riprodotta della "
+"musica"
+
+#: data/org.lingmo.Music.gschema.xml:38
+msgid "Report music history to Last.fm"
+msgstr "Invia la cronologia musicale a Last.fm"
+
+#: data/org.lingmo.Music.gschema.xml:39
+msgid ""
+"Enables or disables sending scrobbles and the “currently playing” info to "
+"Last.fm."
+msgstr ""
+"Abilita/Disabilita l'invio della musica ascoltata e della musica in "
+"riproduzione a Last.fm."
+
+#: data/ui/AlbumWidget.ui:84 data/ui/PlayerToolbar.ui:87
+#: data/ui/PlaylistControls.ui:101 lingmomusic/widgets/playertoolbar.py:170
+msgid "Play"
+msgstr "Riproduci"
+
+#: data/ui/AlbumWidget.ui:130 data/ui/PlaylistControls.ui:5
+#: data/ui/SongWidgetMenu.ui:11
+msgid "_Play"
+msgstr "_Riproduci"
+
+#: data/ui/AlbumWidget.ui:134
+msgid "Add to _Favorite Songs"
+msgstr "Aggiungi ai _brani preferiti"
+
+#: data/ui/AlbumWidget.ui:138 data/ui/SongWidgetMenu.ui:15
+msgid "_Add to Playlist…"
+msgstr "Aggiungi a _playlist…"
+
+#: data/ui/AppMenu.ui:23 data/ui/LastfmDialog.ui:8
+msgid "Last.fm Account"
+msgstr "Account Last.fm"
+
+#: data/ui/AppMenu.ui:36
+msgid "Report Music Listening"
+msgstr "Invia musica ascoltata"
+
+#: data/ui/AppMenu.ui:58
+msgid "_Keyboard Shortcuts"
+msgstr "_Scorciatoie da tastiera"
+
+#: data/ui/AppMenu.ui:68
+msgid "_Help"
+msgstr "A_iuto"
+
+#: data/ui/AppMenu.ui:78
+msgid "_About Music"
+msgstr "I_nformazioni su Musica"
+
+#: data/ui/EmptyView.ui:30
+msgid "Welcome to Music"
+msgstr "Benvenuti in Musica"
+
+#: data/ui/HeaderBar.ui:17
+msgid "Menu"
+msgstr "Menù"
+
+#: data/ui/HeaderBar.ui:25 data/ui/SearchHeaderBar.ui:15
+msgid "Select"
+msgstr "Seleziona"
+
+#: data/ui/HeaderBar.ui:31 data/ui/PlaylistDialog.ui:213
+#: data/ui/SearchHeaderBar.ui:20
+msgid "_Cancel"
+msgstr "A_nnulla"
+
+#: data/ui/HeaderBar.ui:43 data/ui/SearchHeaderBar.ui:32
+msgid "Search"
+msgstr "Cerca"
+
+#: data/ui/HeaderBar.ui:51
+msgid "Back"
+msgstr "Indietro"
+
+#: data/ui/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Generale"
+
+#: data/ui/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Close window"
+msgstr "Chiude la finestra"
+
+#: data/ui/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Cerca"
+
+#: data/ui/help-overlay.ui:26
+msgctxt "shortcut window"
+msgid "Help"
+msgstr "Aiuto"
+
+#: data/ui/help-overlay.ui:32
+msgctxt "shortcut window"
+msgid "Shortcuts"
+msgstr "Scorciatoie"
+
+#: data/ui/help-overlay.ui:40
+msgctxt "shortcut window"
+msgid "Playback"
+msgstr "Riproduzione"
+
+#: data/ui/help-overlay.ui:43
+msgctxt "shortcut window"
+msgid "Play/Pause"
+msgstr "Riproduci/Pausa"
+
+#: data/ui/help-overlay.ui:49
+msgctxt "shortcut window"
+msgid "Next song"
+msgstr "Brano successivo"
+
+#: data/ui/help-overlay.ui:55
+msgctxt "shortcut window"
+msgid "Previous song"
+msgstr "Brano precedente"
+
+#: data/ui/help-overlay.ui:61
+msgctxt "shortcut window"
+msgid "Toggle repeat"
+msgstr "Attiva/Disattiva ripetizione"
+
+#: data/ui/help-overlay.ui:67
+msgctxt "shortcut window"
+msgid "Toggle shuffle"
+msgstr "Attiva/Disattiva riproduzione casuale"
+
+#: data/ui/help-overlay.ui:75
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Navigazione"
+
+#: data/ui/help-overlay.ui:78
+msgctxt "shortcut window"
+msgid "Go to Albums"
+msgstr "Va agli album"
+
+#: data/ui/help-overlay.ui:84
+msgctxt "shortcut window"
+msgid "Go to Artists"
+msgstr "Va agli artisti"
+
+#: data/ui/help-overlay.ui:90
+msgctxt "shortcut window"
+msgid "Go to Songs"
+msgstr "Va ai brani"
+
+#: data/ui/help-overlay.ui:96
+msgctxt "shortcut window"
+msgid "Go to Playlists"
+msgstr "Va alle playlist"
+
+#: data/ui/help-overlay.ui:102
+msgctxt "shortcut window"
+msgid "Go back"
+msgstr "Indietro"
+
+#: data/ui/LastfmDialog.ui:21
+msgid ""
+"Last.fm is a music discovery service that gives you personalised "
+"recommendations based on the music you listen to."
+msgstr ""
+"Last.fm è un servizio di scoperta musicale che fornisce raccomandazioni "
+"personalizzate in base alla musica ascoltata."
+
+#: data/ui/LastfmDialog.ui:31 lingmomusic/widgets/lastfmdialog.py:57
+msgid "Music Reporting Not Setup"
+msgstr "Invio cronologia musicale non attivo"
+
+#: data/ui/LastfmDialog.ui:44 lingmomusic/widgets/lastfmdialog.py:60
+msgid "Login to your Last.fm account to report your music listening."
+msgstr ""
+"Accedere al proprio account Last.fm per inviare la cronologia musicale."
+
+#: data/ui/LastfmDialog.ui:55 lingmomusic/widgets/lastfmdialog.py:58
+msgid "Login"
+msgstr "Accedi"
+
+#: data/ui/PlayerToolbar.ui:74
+msgid "Previous"
+msgstr "Precedente"
+
+#: data/ui/PlayerToolbar.ui:106
+msgid "Next"
+msgstr "Successiva"
+
+#: data/ui/PlaylistControls.ui:9
+msgid "_Delete"
+msgstr "_Elimina"
+
+#: data/ui/PlaylistControls.ui:13
+msgid "_Rename…"
+msgstr "_Rinomina…"
+
+#: data/ui/PlaylistControls.ui:28
+msgid "Playlist Name"
+msgstr "Nome playlist"
+
+#: data/ui/PlaylistControls.ui:62
+msgid "_Done"
+msgstr "_Fatto"
+
+#: data/ui/PlaylistDialog.ui:52
+msgid "Enter a name for your first playlist"
+msgstr "Inserire un nome per la prima playlist"
+
+#: data/ui/PlaylistDialog.ui:77
+msgid "C_reate"
+msgstr "C_rea"
+
+#: data/ui/PlaylistDialog.ui:146
+msgid "New Playlist…"
+msgstr "Nuova playlist…"
+
+#: data/ui/PlaylistDialog.ui:161
+msgid "Add"
+msgstr "Aggiungi"
+
+#: data/ui/PlaylistDialog.ui:202
+msgid "Add to Playlist"
+msgstr "Aggiungi a playlist"
+
+#: data/ui/PlaylistDialog.ui:222
+msgid "_Add"
+msgstr "A_ggiungi"
+
+#: data/ui/SearchView.ui:33 lingmomusic/views/artistsview.py:51
+msgid "Artists"
+msgstr "Artisti"
+
+#: data/ui/SearchView.ui:42 data/ui/SearchView.ui:84
+msgid "View All"
+msgstr "Visualizza tutti"
+
+#: data/ui/SearchView.ui:75 lingmomusic/views/albumsview.py:56
+msgid "Albums"
+msgstr "Album"
+
+#: data/ui/SearchView.ui:117 lingmomusic/views/songsview.py:52
+msgid "Songs"
+msgstr "Brani"
+
+#: data/ui/SelectionBarMenuButton.ui:7
+msgid "Select All"
+msgstr "Seleziona tutto"
+
+#: data/ui/SelectionBarMenuButton.ui:11
+msgid "Select None"
+msgstr "Deseleziona tutto"
+
+#: data/ui/SelectionBarMenuButton.ui:19 lingmomusic/widgets/headerbar.py:69
+msgid "Click on items to select them"
+msgstr "Fare clic sugli elementi per selezionarli"
+
+#: data/ui/SelectionToolbar.ui:8
+msgid "_Add to Playlist"
+msgstr "Aggiungi a _playlist"
+
+#: data/ui/SongWidgetMenu.ui:19
+msgid "_Remove from Playlist"
+msgstr "_Rimuovi da playlist"
+
+#: lingmomusic/about.py:245
+msgid "The Lingmo Project"
+msgstr "Il progetto Lingmo"
+
+#: lingmomusic/about.py:249
+msgid "translator-credits"
+msgstr "Milo Casagrande <milo@milo.name>"
+
+#: lingmomusic/about.py:253
+msgid "Copyright The Lingmo Music Developers"
+msgstr "Copyright de gli sviluppatori di Lingmo Musica"
+
+#: lingmomusic/about.py:256
+msgid "Translated by"
+msgstr "Milo Casagrande <milo@milo.name>"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:894
+msgid "Most Played"
+msgstr "Più ascoltati"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:948
+msgid "Never Played"
+msgstr "Mai ascoltati"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:1001
+msgid "Recently Played"
+msgstr "Ascoltati di recente"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:1064
+msgid "Recently Added"
+msgstr "Aggiunti di recente"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:1127
+msgid "Favorite Songs"
+msgstr "Brani preferiti"
+
+#: lingmomusic/gstplayer.py:408
+msgid "Unable to play the file"
+msgstr "Impossibile riprodurre il file"
+
+#: lingmomusic/gstplayer.py:414
+msgid "_Find in {}"
+msgstr "_Trova in {}"
+
+#. TRANSLATORS: separator for two codecs
+#: lingmomusic/gstplayer.py:424
+msgid " and "
+msgstr " e "
+
+#. TRANSLATORS: separator for a list of codecs
+#: lingmomusic/gstplayer.py:427
+msgid ", "
+msgstr ", "
+
+#: lingmomusic/gstplayer.py:429
+msgid "{} is required to play the file, but is not installed."
+msgid_plural "{} are required to play the file, but are not installed."
+msgstr[0] "{} è richiesto per riprodurre i file, ma non è installato."
+msgstr[1] "{} sono richiesti per riprodurre il file, ma non sono installati."
+
+#: lingmomusic/inhibitsuspend.py:63
+msgid "Playing music"
+msgstr "Musica in riproduzione"
+
+#. Translators: "shuffle" causes tracks to play in random order.
+#: lingmomusic/player.py:44
+msgid "Shuffle/Repeat Off"
+msgstr "Mischia/Ripeti disattivati"
+
+#: lingmomusic/player.py:45
+msgid "Repeat Song"
+msgstr "Ripeti brano"
+
+#: lingmomusic/player.py:46
+msgid "Repeat All"
+msgstr "Ripeti tutto"
+
+#: lingmomusic/player.py:47
+msgid "Shuffle"
+msgstr "Mischia"
+
+#: lingmomusic/playlisttoast.py:55
+msgid "Playlist {} removed"
+msgstr "Playlist {} rimossa"
+
+#: lingmomusic/playlisttoast.py:56 lingmomusic/songtoast.py:65
+msgid "Undo"
+msgstr "Annulla"
+
+#: lingmomusic/songtoast.py:64
+msgid "{} removed from {}"
+msgstr "{} rimosso da {}"
+
+#: lingmomusic/utils.py:92
+msgid "Unknown album"
+msgstr "Album sconosciuto"
+
+#: lingmomusic/utils.py:113
+msgid "Unknown Artist"
+msgstr "Artista sconosciuto"
+
+#: lingmomusic/views/emptyview.py:65
+msgid "Your XDG Music directory is not set."
+msgstr "La directory Musica di XDG non è impostata."
+
+#: lingmomusic/views/emptyview.py:72
+msgid "Music Folder"
+msgstr "Cartella Musica"
+
+#. TRANSLATORS: This is a label to display a link to open user's music
+#. folder. {} will be replaced with the translated text 'Music folder'
+#: lingmomusic/views/emptyview.py:76
+msgid "The contents of your {} will appear here."
+msgstr "Il contenuto della propria «{}» apparirà qui."
+
+#: lingmomusic/views/emptyview.py:124
+msgid "No Music Found"
+msgstr "Nessuna musica trovata"
+
+#: lingmomusic/views/emptyview.py:125
+msgid "Try a Different Search"
+msgstr "Provare con un'altra ricerca"
+
+#: lingmomusic/views/emptyview.py:129
+msgid "Lingmo Music could not connect to Tracker."
+msgstr "Impossibile collegarsi a Tracker."
+
+#: lingmomusic/views/emptyview.py:131
+msgid "Your music files cannot be indexed without Tracker running."
+msgstr ""
+"Non è possibile indicizzare i propri file musicali senza Tracker in "
+"esecuzione."
+
+#: lingmomusic/views/emptyview.py:137
+msgid "Your system Tracker version seems outdated."
+msgstr "La versione di Tracker del sistema non sembra essere recente."
+
+#: lingmomusic/views/emptyview.py:139
+msgid "Music needs Tracker version 3.0.0 or higher."
+msgstr "Musica necessita della versione 3.0.0, o successive, di Tracker."
+
+#: lingmomusic/views/playlistsview.py:45
+msgid "Playlists"
+msgstr "Playlist"
+
+#: lingmomusic/views/searchview.py:304
+msgid "Artists Results"
+msgstr "Risultati artisti"
+
+#: lingmomusic/views/searchview.py:318
+msgid "Albums Results"
+msgstr "Risultati album"
+
+#: lingmomusic/widgets/albumwidget.py:245
+msgid "{} minute"
+msgid_plural "{} minutes"
+msgstr[0] "{} minuto"
+msgstr[1] "{} minuti"
+
+#: lingmomusic/widgets/discbox.py:75
+msgid "Disc {}"
+msgstr "Disco {}"
+
+#: lingmomusic/widgets/headerbar.py:66
+msgid "Selected {} song"
+msgid_plural "Selected {} songs"
+msgstr[0] "Selezionato {} brano"
+msgstr[1] "Selezionati {} brani"
+
+#: lingmomusic/widgets/lastfmdialog.py:64
+msgid "Your music listening is reported to Last.fm."
+msgstr "La cronologia musicale è inviata a Last.fm."
+
+#: lingmomusic/widgets/lastfmdialog.py:66
+msgid "Your music listening is not reported to Last.fm."
+msgstr "La cronologia musicale non è inviata a Last.fm."
+
+#. TRANSLATORS: displays the username of the Last.fm account
+#: lingmomusic/widgets/lastfmdialog.py:70
+msgid "Logged in as {}"
+msgstr "Accesso eseguito come {}"
+
+#: lingmomusic/widgets/lastfmdialog.py:71
+msgid "Configure"
+msgstr "Configura"
+
+#: lingmomusic/widgets/playertoolbar.py:167
+msgid "Pause"
+msgstr "Pausa"
+
+#: lingmomusic/widgets/playlistcontrols.py:130
+msgid "{} Song"
+msgid_plural "{} Songs"
+msgstr[0] "{} brano"
+msgstr[1] "{} brani"
+
+#: lingmomusic/widgets/searchheaderbar.py:66
+msgid "Search songs, artists, albums and playlists"
+msgstr "Cerca brani, artisti album e playlist"

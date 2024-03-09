@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="AlbumCover" parent="GtkFlowBoxChild">
+    <child>
+      <object class="GtkBox">
+        <property name="focusable">False</property>
+        <property name="has_tooltip">True</property>
+        <property name="valign">start</property>
+        <property name="orientation">vertical</property>
+        <signal name="query-tooltip" handler="_on_tooltip_query"/>
+        <child>
+          <object class="GtkOverlay">
+            <property name="focusable">False</property>
+            <property name="margin-bottom">4</property>
+            <child>
+              <object class="GtkImage" id="_cover_image">
+                <property name="focusable">False</property>
+                <property name="vexpand">True</property>
+                <property name="valign">end</property>
+                <property name="halign">center</property>
+              </object>
+            </child>
+            <child type="overlay">
+              <object class="GtkCheckButton" id="_check">
+                <property name="focusable">True</property>
+                <property name="receives_default">False</property>
+                <property name="halign">end</property>
+                <property name="valign">end</property>
+                <style>
+                  <class name="selection-mode"/>
+                </style>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkLabel" id="_title_label">
+            <property name="focusable">False</property>
+            <property name="justify">center</property>
+            <property name="wrap">True</property>
+            <property name="ellipsize">middle</property>
+            <property name="max_width_chars">20</property>
+            <property name="lines">2</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkLabel" id="_artist_label">
+            <property name="focusable">False</property>
+            <property name="ellipsize">middle</property>
+            <property name="max_width_chars">20</property>
+            <style>
+              <class name="albumcover-artist-label"/>
+              <class name="dim-label"/>
+            </style>
+          </object>
+        </child>
+      </object>
+    </child>
+    <style>
+      <class name="tile"/>
+    </style>
+  </template>
+</interface>

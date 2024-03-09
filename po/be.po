@@ -1,0 +1,659 @@
+# Belarusian translation for lingmo-music.
+# Copyright (C) 2013 lingmo-music's COPYRIGHT HOLDER
+# This file is distributed under the same license as the lingmo-music package.
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2013, 2014.
+# Yuras Shumovich <shumovichy@gmail.com>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lingmo-music master\n"
+"Report-Msgid-Bugs-To: https://gitlab.lingmo.org/Lingmo/lingmo-music/issues\n"
+"POT-Creation-Date: 2023-07-04 07:49+0000\n"
+"PO-Revision-Date: 2023-07-29 23:48+0300\n"
+"Last-Translator: Yuras Shumovich <shumovichy@gmail.com>\n"
+"Language-Team: Belarusian <i18n-bel-lingmo@googlegroups.com>\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: data/org.lingmo.Music.appdata.xml.in.in:6
+#: data/org.lingmo.Music.desktop.in.in:3 lingmomusic/about.py:243
+#: lingmomusic/application.py:61 lingmomusic/window.py:71
+msgid "Music"
+msgstr "Музыка"
+
+#: data/org.lingmo.Music.appdata.xml.in.in:7
+#: data/org.lingmo.Music.desktop.in.in:5
+msgid "Play and organize your music collection"
+msgstr "Прайграванне і ўпарадкаванне музычнай калекцыі"
+
+#: data/org.lingmo.Music.appdata.xml.in.in:9
+msgid "An easy and pleasant way to play your music."
+msgstr "Просты і прыемны спосаб слухаць музыку."
+
+#: data/org.lingmo.Music.appdata.xml.in.in:12
+msgid ""
+"Find tracks in your local collection, use automatically generated playlists "
+"or curate a fresh one."
+msgstr ""
+"Шукайце трэкі ў сваёй лакальнай калекцыі, карыстайцеся аўтаматычна "
+"згенерыраванымі спісамі прайгравання або дадайце ўласны."
+
+#: data/org.lingmo.Music.appdata.xml.in.in:182
+msgid "The Lingmo Music developers"
+msgstr "Распрацоўшчыкі «Музыка Lingmo»"
+
+#: data/org.lingmo.Music.desktop.in.in:4
+msgid "Music Player"
+msgstr "Музычны прайгравальнік"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.lingmo.Music.desktop.in.in:13
+msgid "Music;Player;"
+msgstr "Музыка;Музычны;Прайгравальнік;Плэер;"
+
+#: data/org.lingmo.Music.gschema.xml:12
+msgid "Window size"
+msgstr "Памер акна"
+
+#: data/org.lingmo.Music.gschema.xml:13
+msgid "Window size (width and height)."
+msgstr "Памер акна (шырыня і вышыня)."
+
+#: data/org.lingmo.Music.gschema.xml:17
+msgid "Window maximized"
+msgstr "Разгортванне акна"
+
+#: data/org.lingmo.Music.gschema.xml:18
+msgid "Window maximized state."
+msgstr "Стан акна – разгорнута."
+
+#: data/org.lingmo.Music.gschema.xml:22
+msgid "Playback repeat mode"
+msgstr "Рэжым паўтору прайгравання"
+
+#. Translators: Don't translate allowed values, just the description in the brackets
+#: data/org.lingmo.Music.gschema.xml:24
+msgid ""
+"Value identifies whether to repeat or randomize playback through the "
+"collection. Allowed values are: “none” (repeat and shuffle are off), "
+"“song” (repeat current song), “all” (repeat playlist, no shuffle), "
+"“shuffle” (shuffle playlist, presumes repeat all)."
+msgstr ""
+"Значэнне ключа вызначае, ці трэба паўтараць або выпадкова прайграваць "
+"музычную калекцыю. Магчымыя значэнні: \"none\" (паўтор і выпадковае "
+"прайграванне выключаныя), \"song\" (паўтор бягучай песні), \"all\" (паўтор "
+"спіса прайгравання без выпадковасці) і \"shuffle\" (выпадковае прайграванне "
+"спіса, магчыма з паўторам)."
+
+#: data/org.lingmo.Music.gschema.xml:28
+msgid "Enable ReplayGain"
+msgstr "Уключыць ReplayGain"
+
+#: data/org.lingmo.Music.gschema.xml:29
+msgid "Enables or disables ReplayGain for albums"
+msgstr "Уключыць або адключыць ReplayGain для альбомаў"
+
+#: data/org.lingmo.Music.gschema.xml:33
+msgid "Inhibit system suspend"
+msgstr "Блакіраваць прыпыненне працы камп'ютара"
+
+#: data/org.lingmo.Music.gschema.xml:34
+msgid "Enables or disables inhibiting system suspend while playing music"
+msgstr ""
+"Уключыць або адключыць блакіраванне прыпынення працы падчас прайгравання "
+"музыкі"
+
+#: data/org.lingmo.Music.gschema.xml:38
+msgid "Report music history to Last.fm"
+msgstr "Адпраўляць гісторыю праслуханай музыкі на Last.fm"
+
+#: data/org.lingmo.Music.gschema.xml:39
+msgid ""
+"Enables or disables sending scrobbles and the “currently playing” info to "
+"Last.fm."
+msgstr ""
+"Уключыць або адключыць адпраўку музыкальнага профілю і звестак, якая песня "
+"\"прайграецца зараз\" на Last.fm."
+
+#: data/ui/AlbumWidget.ui:84 data/ui/PlayerToolbar.ui:87
+#: data/ui/PlaylistControls.ui:101 lingmomusic/widgets/playertoolbar.py:170
+msgid "Play"
+msgstr "Прайграваць"
+
+#: data/ui/AlbumWidget.ui:130 data/ui/PlaylistControls.ui:5
+#: data/ui/SongWidgetMenu.ui:11
+msgid "_Play"
+msgstr "_Прайграваць"
+
+#: data/ui/AlbumWidget.ui:134
+msgid "Add to _Favorite Songs"
+msgstr "Дадаць у _Абраныя песні"
+
+#: data/ui/AlbumWidget.ui:138 data/ui/SongWidgetMenu.ui:15
+msgid "_Add to Playlist…"
+msgstr "_Дадаць у спіс прайгравання…"
+
+#: data/ui/AppMenu.ui:23 data/ui/LastfmDialog.ui:8
+msgid "Last.fm Account"
+msgstr "Уліковы запіс Last.fm"
+
+#: data/ui/AppMenu.ui:36
+msgid "Report Music Listening"
+msgstr "Адпраўляць гісторыю праслуханай музыкі"
+
+#: data/ui/AppMenu.ui:58
+msgid "_Keyboard Shortcuts"
+msgstr "_Спалучэнні клавіш"
+
+#: data/ui/AppMenu.ui:68
+msgid "_Help"
+msgstr "_Даведка"
+
+#: data/ui/AppMenu.ui:78
+msgid "_About Music"
+msgstr "_Аб праграме"
+
+#: data/ui/EmptyView.ui:30
+msgid "Welcome to Music"
+msgstr "Вітаем у праграме Музыка"
+
+#: data/ui/HeaderBar.ui:17
+msgid "Menu"
+msgstr "Меню"
+
+#: data/ui/HeaderBar.ui:25 data/ui/SearchHeaderBar.ui:15
+msgid "Select"
+msgstr "Выбраць"
+
+#: data/ui/HeaderBar.ui:31 data/ui/PlaylistDialog.ui:213
+#: data/ui/SearchHeaderBar.ui:20
+msgid "_Cancel"
+msgstr "_Скасаваць"
+
+#: data/ui/HeaderBar.ui:43 data/ui/SearchHeaderBar.ui:32
+msgid "Search"
+msgstr "Пошук"
+
+#: data/ui/HeaderBar.ui:51
+msgid "Back"
+msgstr "Назад"
+
+#: data/ui/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Агульнае"
+
+#: data/ui/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Close window"
+msgstr "Закрыць акно"
+
+#: data/ui/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Пошук"
+
+#: data/ui/help-overlay.ui:26
+msgctxt "shortcut window"
+msgid "Help"
+msgstr "Даведка"
+
+#: data/ui/help-overlay.ui:32
+msgctxt "shortcut window"
+msgid "Shortcuts"
+msgstr "Спалучэнні клавіш"
+
+#: data/ui/help-overlay.ui:40
+msgctxt "shortcut window"
+msgid "Playback"
+msgstr "Прайграванне"
+
+#: data/ui/help-overlay.ui:43
+msgctxt "shortcut window"
+msgid "Play/Pause"
+msgstr "Прайграванне/паўза"
+
+#: data/ui/help-overlay.ui:49
+msgctxt "shortcut window"
+msgid "Next song"
+msgstr "Наступная песня"
+
+#: data/ui/help-overlay.ui:55
+msgctxt "shortcut window"
+msgid "Previous song"
+msgstr "Папярэдняя песня"
+
+#: data/ui/help-overlay.ui:61
+msgctxt "shortcut window"
+msgid "Toggle repeat"
+msgstr "Укл/выкл паўтор"
+
+#: data/ui/help-overlay.ui:67
+msgctxt "shortcut window"
+msgid "Toggle shuffle"
+msgstr "Укл/выкл тасаванне"
+
+#: data/ui/help-overlay.ui:75
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Навігацыя"
+
+#: data/ui/help-overlay.ui:78
+msgctxt "shortcut window"
+msgid "Go to Albums"
+msgstr "Перайсці да альбомаў"
+
+#: data/ui/help-overlay.ui:84
+msgctxt "shortcut window"
+msgid "Go to Artists"
+msgstr "Перайсці да выканаўцаў"
+
+#: data/ui/help-overlay.ui:90
+msgctxt "shortcut window"
+msgid "Go to Songs"
+msgstr "Перайсці да песень"
+
+#: data/ui/help-overlay.ui:96
+msgctxt "shortcut window"
+msgid "Go to Playlists"
+msgstr "Перайсці да спісаў прайгравання"
+
+#: data/ui/help-overlay.ui:102
+msgctxt "shortcut window"
+msgid "Go back"
+msgstr "Назад"
+
+#: data/ui/LastfmDialog.ui:21
+msgid ""
+"Last.fm is a music discovery service that gives you personalised "
+"recommendations based on the music you listen to."
+msgstr ""
+"Last.fm — гэта сэрвіс пошуку музыкі, які дае асабістыя рэкамендацыі, "
+"заснаваныя на праслуханай вамі музыцы."
+
+#: data/ui/LastfmDialog.ui:31 lingmomusic/widgets/lastfmdialog.py:57
+msgid "Music Reporting Not Setup"
+msgstr "Адпраўка звестак пра музыку не наладжана"
+
+#: data/ui/LastfmDialog.ui:44 lingmomusic/widgets/lastfmdialog.py:60
+msgid "Login to your Last.fm account to report your music listening."
+msgstr ""
+"Увайдзіце ў свой уліковы запіс Last.fm, каб адпраўляць гісторыю праслуханай "
+"музыкі."
+
+#: data/ui/LastfmDialog.ui:55 lingmomusic/widgets/lastfmdialog.py:58
+msgid "Login"
+msgstr "Увайсці"
+
+#: data/ui/PlayerToolbar.ui:74
+msgid "Previous"
+msgstr "Папярэдні"
+
+#: data/ui/PlayerToolbar.ui:106
+msgid "Next"
+msgstr "Наступны"
+
+#: data/ui/PlaylistControls.ui:9
+msgid "_Delete"
+msgstr "_Выдаліць"
+
+#: data/ui/PlaylistControls.ui:13
+msgid "_Rename…"
+msgstr "_Перайменаваць…"
+
+#: data/ui/PlaylistControls.ui:28
+msgid "Playlist Name"
+msgstr "Назва спіса прайгравання"
+
+#: data/ui/PlaylistControls.ui:62
+msgid "_Done"
+msgstr "_Гатова"
+
+#: data/ui/PlaylistDialog.ui:52
+msgid "Enter a name for your first playlist"
+msgstr "Увядзіце назву вашага першага спіса прайгравання"
+
+#: data/ui/PlaylistDialog.ui:77
+msgid "C_reate"
+msgstr "С_тварыць"
+
+#: data/ui/PlaylistDialog.ui:146
+msgid "New Playlist…"
+msgstr "Новы спіс прайгравання…"
+
+#: data/ui/PlaylistDialog.ui:161
+msgid "Add"
+msgstr "Дадаць"
+
+#: data/ui/PlaylistDialog.ui:202
+msgid "Add to Playlist"
+msgstr "Дадаць у спіс прайгравання"
+
+#: data/ui/PlaylistDialog.ui:222
+msgid "_Add"
+msgstr "_Дадаць"
+
+#: data/ui/SearchView.ui:33 lingmomusic/views/artistsview.py:51
+msgid "Artists"
+msgstr "Выканаўцы"
+
+#: data/ui/SearchView.ui:42 data/ui/SearchView.ui:84
+msgid "View All"
+msgstr "Усе"
+
+#: data/ui/SearchView.ui:75 lingmomusic/views/albumsview.py:56
+msgid "Albums"
+msgstr "Альбомы"
+
+#: data/ui/SearchView.ui:117 lingmomusic/views/songsview.py:52
+msgid "Songs"
+msgstr "Песні"
+
+#: data/ui/SelectionBarMenuButton.ui:7
+msgid "Select All"
+msgstr "Вылучыць усё"
+
+#: data/ui/SelectionBarMenuButton.ui:11
+msgid "Select None"
+msgstr "Скасаваць вылучэнне"
+
+#: data/ui/SelectionBarMenuButton.ui:19 lingmomusic/widgets/headerbar.py:69
+msgid "Click on items to select them"
+msgstr "Каб вылучыць аб'екты, пстрыкайце ў іх"
+
+#: data/ui/SelectionToolbar.ui:8
+msgid "_Add to Playlist"
+msgstr "_Дадаць у спіс прайгравання"
+
+#: data/ui/SongWidgetMenu.ui:19
+msgid "_Remove from Playlist"
+msgstr "_Выдаліць са спіса прайгравання"
+
+#: lingmomusic/about.py:245
+msgid "The Lingmo Project"
+msgstr "Праект Lingmo"
+
+#: lingmomusic/about.py:249
+msgid "translator-credits"
+msgstr "Launchpad translators"
+
+#: lingmomusic/about.py:253
+msgid "Copyright The Lingmo Music Developers"
+msgstr "Аўтарскае права Распрацоўшчыкі «Музыка Lingmo»"
+
+#: lingmomusic/about.py:256
+msgid "Translated by"
+msgstr "Пераклад"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:894
+msgid "Most Played"
+msgstr "Найчасцей прайгранае"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:948
+msgid "Never Played"
+msgstr "Ніколі не прайгранае"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:1001
+msgid "Recently Played"
+msgstr "Нядаўна прайгранае"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:1064
+msgid "Recently Added"
+msgstr "Нядаўна дададзенае"
+
+#. TRANSLATORS: this is a playlist name
+#: lingmomusic/grilowrappers/grltrackerplaylists.py:1127
+msgid "Favorite Songs"
+msgstr "Абраныя песні"
+
+#: lingmomusic/gstplayer.py:408
+msgid "Unable to play the file"
+msgstr "Не ўдалося прайграць гэты файл"
+
+#: lingmomusic/gstplayer.py:414
+msgid "_Find in {}"
+msgstr "_Шукаць у {}"
+
+#. TRANSLATORS: separator for two codecs
+#: lingmomusic/gstplayer.py:424
+msgid " and "
+msgstr " і "
+
+#. TRANSLATORS: separator for a list of codecs
+#: lingmomusic/gstplayer.py:427
+msgid ", "
+msgstr ", "
+
+#: lingmomusic/gstplayer.py:429
+msgid "{} is required to play the file, but is not installed."
+msgid_plural "{} are required to play the file, but are not installed."
+msgstr[0] "Каб прайграць гэты файл, патрабуецца {}, але ён не ўсталяваны."
+msgstr[1] "Каб прайграць гэты файл, патрабуюцца {}, але яны не ўсталяваны."
+msgstr[2] "Каб прайграць гэты файл, патрабуюцца {}, але яны не ўсталяваны."
+
+#: lingmomusic/inhibitsuspend.py:63
+msgid "Playing music"
+msgstr "Прайграванне музыкі"
+
+#. Translators: "shuffle" causes tracks to play in random order.
+#: lingmomusic/player.py:44
+msgid "Shuffle/Repeat Off"
+msgstr "Выпадковы парадак і паўтор выключаны"
+
+#: lingmomusic/player.py:45
+msgid "Repeat Song"
+msgstr "Паўтараць песню"
+
+#: lingmomusic/player.py:46
+msgid "Repeat All"
+msgstr "Паўтараць усё"
+
+#: lingmomusic/player.py:47
+msgid "Shuffle"
+msgstr "Выпадковы парадак"
+
+#: lingmomusic/playlisttoast.py:55
+msgid "Playlist {} removed"
+msgstr "Спіс прайгравання {} выдалены"
+
+#: lingmomusic/playlisttoast.py:56 lingmomusic/songtoast.py:65
+msgid "Undo"
+msgstr "Адрабіць"
+
+#: lingmomusic/songtoast.py:64
+msgid "{} removed from {}"
+msgstr "{} выдалена з {}"
+
+#: lingmomusic/utils.py:92
+msgid "Unknown album"
+msgstr "Невядомы альбом"
+
+#: lingmomusic/utils.py:113
+msgid "Unknown Artist"
+msgstr "Невядомы выканаўца"
+
+#: lingmomusic/views/emptyview.py:65
+msgid "Your XDG Music directory is not set."
+msgstr "Каталог Музыкі XDG не зададзены."
+
+#: lingmomusic/views/emptyview.py:72
+msgid "Music Folder"
+msgstr "папкі Музыка"
+
+#. TRANSLATORS: This is a label to display a link to open user's music
+#. folder. {} will be replaced with the translated text 'Music folder'
+#: lingmomusic/views/emptyview.py:76
+msgid "The contents of your {} will appear here."
+msgstr "Тут будзе паказвацца змесціва з {}."
+
+#: lingmomusic/views/emptyview.py:124
+msgid "No Music Found"
+msgstr "Музыка не знойдзена"
+
+#: lingmomusic/views/emptyview.py:125
+msgid "Try a Different Search"
+msgstr "Паспрабуйце іншы пошукавы запыт"
+
+#: lingmomusic/views/emptyview.py:129
+msgid "Lingmo Music could not connect to Tracker."
+msgstr "Музыцы Lingmo не ўдалося падлучыцца да Tracker."
+
+#: lingmomusic/views/emptyview.py:131
+msgid "Your music files cannot be indexed without Tracker running."
+msgstr "Немагчыма праіндэксаваць музычная файлы, калі не запушчаны Tracker."
+
+#: lingmomusic/views/emptyview.py:137
+msgid "Your system Tracker version seems outdated."
+msgstr "Магчыма, што ў вашай сістэме састарэлая версія Tracker."
+
+#: lingmomusic/views/emptyview.py:139
+msgid "Music needs Tracker version 3.0.0 or higher."
+msgstr "Патрабуецца Tracker версіі 3.0.0 або навейшай."
+
+#: lingmomusic/views/playlistsview.py:45
+msgid "Playlists"
+msgstr "Спісы прайгравання"
+
+#: lingmomusic/views/searchview.py:304
+msgid "Artists Results"
+msgstr "Знойдзеныя выканаўцы"
+
+#: lingmomusic/views/searchview.py:318
+msgid "Albums Results"
+msgstr "Знойдзеныя альбомы"
+
+#: lingmomusic/widgets/albumwidget.py:245
+msgid "{} minute"
+msgid_plural "{} minutes"
+msgstr[0] "{} хвіліна"
+msgstr[1] "{} хвіліны"
+msgstr[2] "{} хвілін"
+
+#: lingmomusic/widgets/discbox.py:75
+msgid "Disc {}"
+msgstr "Дыск {}"
+
+#: lingmomusic/widgets/headerbar.py:66
+msgid "Selected {} song"
+msgid_plural "Selected {} songs"
+msgstr[0] "Выбрана {} песня"
+msgstr[1] "Выбрана {} песні"
+msgstr[2] "Выбрана {} песень"
+
+#: lingmomusic/widgets/lastfmdialog.py:64
+msgid "Your music listening is reported to Last.fm."
+msgstr "Ваша гісторыя праслухвання адпраўлена на Last.fm."
+
+#: lingmomusic/widgets/lastfmdialog.py:66
+msgid "Your music listening is not reported to Last.fm."
+msgstr "Ваша гісторыя праслухвання не адпраўлена на Last.fm."
+
+#. TRANSLATORS: displays the username of the Last.fm account
+#: lingmomusic/widgets/lastfmdialog.py:70
+msgid "Logged in as {}"
+msgstr "Вы ўвайшлі як {}"
+
+#: lingmomusic/widgets/lastfmdialog.py:71
+msgid "Configure"
+msgstr "Наладзіць"
+
+#: lingmomusic/widgets/playertoolbar.py:167
+msgid "Pause"
+msgstr "Прыпыніць"
+
+#: lingmomusic/widgets/playlistcontrols.py:130
+msgid "{} Song"
+msgid_plural "{} Songs"
+msgstr[0] "{} песня"
+msgstr[1] "{} песні"
+msgstr[2] "{} песень"
+
+#: lingmomusic/widgets/searchheaderbar.py:66
+msgid "Search songs, artists, albums and playlists"
+msgstr "Пошук песень, выканаўцаў і спісаў прайгравання"
+
+#~ msgid "Lingmo Music"
+#~ msgstr "Музыка Lingmo"
+
+#~ msgid "Window position"
+#~ msgstr "Становішча акна"
+
+#~ msgid "Window position (x and y)."
+#~ msgstr "Становішча акна (x, y)."
+
+#~ msgid "Copyright © 2018 Lingmo Music Developers"
+#~ msgstr "Аўтарскае права © 2018 Распрацоўшчыкі «Музыка Lingmo»"
+
+#~ msgid "A music player and management application for Lingmo."
+#~ msgstr "Музычны прайгравальнік і праграма кіравання музыкай для Lingmo."
+
+#~ msgid "Visit Lingmo Music website"
+#~ msgstr "Наведаць сайт праграмы Музыка Lingmo"
+
+#~ msgid ""
+#~ "Lingmo Music is free software; you can redistribute it and/or modify it "
+#~ "under the terms of the GNU General Public License as published by the "
+#~ "Free Software Foundation; either version 2 of the License, or (at your "
+#~ "option) any later version.\n"
+#~ "\n"
+#~ "Lingmo Music is distributed in the hope that it will be useful, but "
+#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
+#~ "Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License along "
+#~ "with Lingmo Music; if not, write to the Free Software Foundation, Inc., 51 "
+#~ "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
+#~ "\n"
+#~ "The Lingmo Music authors hereby grant permission for non-GPL compatible "
+#~ "GStreamer plugins to be used and distributed together with GStreamer and "
+#~ "Lingmo Music.  This permission is above and beyond the permissions granted "
+#~ "by the GPL license by which Lingmo Music is covered.  If you modify this "
+#~ "code, you may extend this exception to your version of the code, but you "
+#~ "are not obligated to do so.  If you do not wish to do so, delete this "
+#~ "exception statement from your version."
+#~ msgstr ""
+#~ "Музыка Lingmo з'яўляецца свабодным праграмным забеспячэннем. Вы можаце "
+#~ "распаўсюджваць гэту праграму згодна з умовамі Агульнай Грамадскай "
+#~ "Ліцэнзіі GNU (GPL), апублікаванай Фондам свабоднага праграмнага "
+#~ "забеспячэння, версіі 2 ці любой пазнейшай.\n"
+#~ "\n"
+#~ "Музыка Lingmo распаўсюджваецца з надзеяй, што яна будзе карыснай, але без "
+#~ "ніякіх гарантый, у тым ліку камерцыйнай вартасці праграмы і наогул яе "
+#~ "карысці.  Каб атрымаць больш інфармацыі глядзіце тэкст Агульнай "
+#~ "Грамадскай Ліцэнзіі GNU (GPL).\n"
+#~ "\n"
+#~ "Вы павінны былі атрымаць копію Агульнай Грамадскай Ліцэнзіі GNU (GPL) "
+#~ "разам з гэтай праграмай. Калі вы не атрымалі яе, паведаміце пра гэта "
+#~ "Фонду свабоднага праграмнага забеспячэння на адрас: the Free Software "
+#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 "
+#~ "USA.\n"
+#~ "\n"
+#~ "Аўтары Музыкі Lingmo даюць дазвол на распаўсюджванне ўбудоў GStreamer, не "
+#~ "сумяшчальных з GPL, разам з GStreamer і Музыкай Lingmo.  Гэты дазвол "
+#~ "носіць дадатковы характар і дапаўняе правы, гарантаваныя ліцэнзіяй GPL, "
+#~ "якая ахоўвае Музыку Lingmo.  Калі вы змяняеце гэты код, вы можаце "
+#~ "распаўсюдзіць гэты дазвол на вашу версію коду, хаця вы і не абавязаны "
+#~ "гэта рабіць.  Калі вы не хочаце рабіць гэта, проста выдаліце тэкст гэтага "
+#~ "дадатковага дазволу."
+
+#~ msgid "Loading"
+#~ msgstr "Загрузка"
+
+#~ msgid "_Undo"
+#~ msgstr "_Адрабіць"
+
+#~ msgid "Add to Playlist…"
+#~ msgstr "Дадаць у спіс прайгравання…"
+
+#~ msgid "Remove From Playlist"
+#~ msgstr "Выдаліць са спіса прайгравання"
